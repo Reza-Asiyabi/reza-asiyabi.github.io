@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Saqib Nazir - Assistant Reseracher PhD.
 domain: saqibnaziir.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://saqibnaziir.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://reza-asiyabi.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: saqialii
 github_username:  saqibnaziir
 
@@ -85,7 +85,7 @@ footer:
   links:
   - label: "GitHub"
     icon: "fab fa-fw fa-github"
-    url: "https://github.com/saqibnaziir"
+    url: "https://github.com/reza-asiyabi"
   - label: "Instagram"
     icon: "fab fa-fw fa-instagram"
     url: "https://instagram.com/saqialii"
