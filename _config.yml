@@ -19,14 +19,14 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Reza M. Asiyabi
-email: saqib.nazir@upb.ro
+email: reza.mohammadi@upb.ro
 description: >- # this means to ignore newlines until "baseurl:"
-  Saqib Nazir - Assistant Reseracher PhD.
-domain: saqibnaziir.github.io
+  Reza M. Asiyabi - Assistant Reseracher PhD.
+domain: reza-asiyabi.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://reza-asiyabi.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: saqialii
-github_username:  saqibnaziir
+twitter_username: reza_m_asiyabi
+github_username:  reza-asiyabi
 
 # Build settings
 # theme: minima
@@ -42,16 +42,16 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Author
 author:
-  name             : "Saqib Nazir"
-  avatar           : "/images/bio-photo-2.JPG"
+  name             : "Reza M. Asiyabi"
+  avatar           : "/images/photo1682407752.JPG"
   bio              : "PhD. / Assistant Resreacher"
   location         : "Romania"
   employer         :
-  email            : "saqib.nazir@upb.ro"
-  github           : "saqibnaziir"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
+  email            : "reza.mohammadi@upb.ro"
+  github           : "reza-asiyabi"
+  googlescholar    : "https://scholar.google.com/citations?user=jKpl5lQAAAAJ&hl=en"
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : 
+  researchgate     : "https://www.researchgate.net/profile/Reza-Mohammadi-Asiyabi"
   uri              :
   bitbucket        : 
   codepen          :
@@ -59,20 +59,20 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  gitlab           : "saqibnaziir"
+  gitlab           : "reza-asiyabi"
   google_plus      :
   keybase          :
-  instagram        : 
+  instagram        : "https://www.instagram.com/reza_m.asiyabi/"
   impactstory      : 
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/saqib-nazir-149467186/"
-  orcid            : "http://orcid.org/yourorcidurl"
-  pinterest        :
+  linkedin         : "https://www.linkedin.com/in/reza-m-asiyabi-97b863178/"
+  orcid            : "https://orcid.org/0000-0002-0162-2376"
+  pinterest        : "https://www.pinterest.com/reza_mohammadiasiyabi/"
   soundcloud       :
   stackoverflow    : 
   steam            :
   tumblr           :
-  twitter          : "sqb_ali"
+  twitter          : "reza_m_asiyabi"
   vine             :
   weibo            :
   xing             :
@@ -88,7 +88,7 @@ footer:
     url: "https://github.com/reza-asiyabi"
   - label: "Instagram"
     icon: "fab fa-fw fa-instagram"
-    url: "https://instagram.com/saqialii"
+    url: "https://www.instagram.com/reza_m.asiyabi/"
     
    
 
