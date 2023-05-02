@@ -44,9 +44,9 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 author:
   name             : "Reza M. Asiyabi"
   avatar           : "/images/photo1682407752.jpeg"
-  bio              : "PhD. / Assistant Resreacher"
+  bio              : "PhD. / Assistant Researcher"
   location         : "Romania"
-  employer         :
+  employer         : "CEOSpaceTech, Research Center for Spatial Information"
   email            : "reza.mohammadi@upb.ro"
   github           : "reza-asiyabi"
   googlescholar    : "https://scholar.google.com/citations?user=jKpl5lQAAAAJ&hl=en"
@@ -62,12 +62,12 @@ author:
   gitlab           : "reza-asiyabi"
   google_plus      :
   keybase          :
-  instagram        : "https://instagram.com/reza_m.asiyabi?igshid=YmMyMTA2M2Y="
+  instagram        : "reza_m.asiyabi"
   impactstory      : 
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/reza-m-asiyabi-97b863178/"
+  linkedin         : "reza-m-asiyabi-97b863178/"
   orcid            : "https://orcid.org/0000-0002-0162-2376"
-  pinterest        : "https://www.pinterest.com/reza_mohammadiasiyabi/"
+  pinterest        : "reza_mohammadiasiyabi"
   soundcloud       :
   stackoverflow    : 
   steam            :
