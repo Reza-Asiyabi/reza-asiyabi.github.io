@@ -43,7 +43,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 # Site Author
 author:
   name             : "Reza M. Asiyabi"
-  avatar           : "/images/photo1682407752.JPG"
+  avatar           : "/images/photo1682407752.jpeg"
   bio              : "PhD. / Assistant Resreacher"
   location         : "Romania"
   employer         :
@@ -62,7 +62,7 @@ author:
   gitlab           : "reza-asiyabi"
   google_plus      :
   keybase          :
-  instagram        : "https://www.instagram.com/reza_m.asiyabi/"
+  instagram        : "https://instagram.com/reza_m.asiyabi?igshid=YmMyMTA2M2Y="
   impactstory      : 
   lastfm           :
   linkedin         : "https://www.linkedin.com/in/reza-m-asiyabi-97b863178/"
@@ -88,7 +88,7 @@ footer:
     url: "https://github.com/reza-asiyabi"
   - label: "Instagram"
     icon: "fab fa-fw fa-instagram"
-    url: "https://www.instagram.com/reza_m.asiyabi/"
+    url: "https://instagram.com/reza_m.asiyabi?igshid=YmMyMTA2M2Y="
     
    
 
