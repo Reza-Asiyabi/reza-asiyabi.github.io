@@ -7,7 +7,7 @@ classes: wide
 ---
 
 **Hi 👋, I'm Reza!**, *Welcome to my world ;)* <span class="pull-right"> </span>\
-<span class="small-grey"><i class="fa-regular fa-face-smile-wink" aria-hidden="true"></i> Let's get to know eachother, shall we?</span> 
+<span class="small-grey"><i class="fa-thin fa-face-smile-wink"> aria-hidden="true"></i> Let's get to know eachother, shall we?</span> 
 
 
 I am a researcher and a PhD student at the Research Center for Spatial Information (CEOSpaceTech) working on Artificial Intelligence and Deep Architectures for Synthetic Aperture Radar (SAR) data.
