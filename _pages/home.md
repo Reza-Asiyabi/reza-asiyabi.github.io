@@ -6,7 +6,7 @@ author_profile: true
 classes: wide
 ---
 
-## Hi, I'm Reza
+# Hi 👋, I'm Reza!
 
 I am a researcher and a PhD student at the Research Center for Spatial Information (CEOSpaceTech) working on Artificial Intelligence and Deep Architectures for Synthetic Aperture Radar (SAR) data.
 I specilized in the field of Artificial Intelligence (AI), Deep Learning, and Machine Learning. My primary area of research revolves around developing innovative methods for Monocular depth estimation using defocus cues.
