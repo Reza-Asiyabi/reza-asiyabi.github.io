@@ -10,7 +10,7 @@ Here is a a numebr of my selected publications. For the full list, please visit 
 
 ---
 
-***Selected Journal Papers 
+***Selected Journal Papers*** 
 
 **Complex-Valued End-to-End Deep Network with Coherency Preservation for Complex-Valued SAR Data Reconstruction and Classification**, *IEEE TGRS - Transactions on Geoscience and Remote Sensing, 2023*  
 Reza M. Asiyabi, Mihai Datcu, Andrei Anghel and Holger Nies
@@ -49,14 +49,14 @@ Behnam Hassani, Mahmood R. Sahebi, Reza M. Asiyabi
 [OSJ](https://link.springer.com/article/10.1007/s12601-020-0023-9)
 
 
-***Selected Conference Papers
+***Selected Conference Papers***
 
 **Complex-Valued Autoencoders with Coherence Preservation for SAR**, *EuSAR - European Conference on Synthetic Aperture Radar, 2022*  
 Reza M. Asiyabi, Mihai Datcu, Andrei Anghel and Holger Nies
 [EuSAR 2022](https://ieeexplore.ieee.org/abstract/document/9944319)
 
 
-**Complex-Valued Vs. Real-Valued Convolutional Neural Network for PolSAR Data Classification**, *IGARSS - IEEE International Geoscience and Remote Sensing Symposium, 2022* 
+**Complex-Valued Vs. Real-Valued Convolutional Neural Network for PolSAR Data Classification**, *IGARSS - IEEE International Geoscience and Remote Sensing Symposium, 2022*
 Reza M. Asiyabi, Mihai Datcu, Holger Nies and Andrei Anghel
 [IGARSS 2022](https://ieeexplore.ieee.org/abstract/document/9884081)
 
