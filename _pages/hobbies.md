@@ -5,14 +5,12 @@ author_profile: true
 classes: wide
 ---
 
-Besides my work, I have a keen interest for philosophy, and reading books. 
+Besides my work, I have a keen interest to travel and discover the world. The world is pretty amazing and I absolutely love exploring new places, meeting new people with diverse background, trying new activities, and making new friends. Here are a few photos from my travels ;) 
 
-
-I enjoy traveling to forein countries. I've lived abroad for a few years already.
 
 <div class="gallery-scroll">
-  <a href="/images/sports/travels-1.JPG" title="Presenting at EMVA 2022, Cork Ireland" class="image-popup">
-    <img class="gallery-img" src="/images/sports/travels-1.JPG" alt="Presenting at EMVA 2022, Cork Ireland">
+  <a href="/images/Travel/Amsterdam.jpeg" title="Amsterdam, Netherlands" class="image-popup">
+    <img class="gallery-img" src="/images/Travel/Amsterdam.jpeg" alt="Amsterdam, Netherlands">
   </a>
   <a href="/images/sports/travels-2.JPG" title="Hiking the Anapurnas in Nepal" class="image-popup">
     <img class="gallery-img" src="/images/sports/travels-2.JPG" alt="Hiking the Anapurnas in Nepal">
