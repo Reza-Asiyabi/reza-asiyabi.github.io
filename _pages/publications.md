@@ -6,38 +6,61 @@ author_profile: true
 classes: wide
 ---
 
+Here is a a numebr of my selected publications. For the full list, please visit my [google schoalr](https://scholar.google.com/citations?user=jKpl5lQAAAAJ&hl=en) page.
 
 ---
 
-**Depth Estimation and Image Restoration by Deep Learning from Defocused Images**, *IEEE Trans. Computational Imaging, 2023*  
-Saqib Nazir, Lorenzo Vaquero, Manuel Mucientes, Víctor M Brea, Daniela Coltuc
-[TCI](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3nLzb24AAAAJ&citation_for_view=3nLzb24AAAAJ:LkGwnXOMwfcC)
+#Selected Journal Papers 
 
-**iDFD: A Dataset Annotated for Depth and Defocus**, *SCIA, 2023*  
-Saqib Nazir, Zhouyan Qiu, Daniela Coltuc, Joaquın Martınez-Sanchez, Pedro Arias
-[SCIA](https://github.com/saqibnaziir/iDFD)
+**Complex-Valued End-to-End Deep Network with Coherency Preservation for Complex-Valued SAR Data Reconstruction and Classification**, *IEEE TGRS - Transactions on Geoscience and Remote Sensing, 2023*  
+Reza M. Asiyabi, Mihai Datcu, Andrei Anghel and Holger Nies
+[TGRS](https://ieeexplore.ieee.org/abstract/document/10102460)
 
-
-**2HDED: Net for Joint Depth Estimation and Image Deblurring from a Single Out-of-Focus Image**, *IEEE International Conference on Image Processing (ICIP), 2022*  
-Saqib Nazir, Lorenzo Vaquero, Manuel Mucientes, Víctor M Brea, Daniela Coltuc 
-[ICIP](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9897352)
-
-**DFD and Image Restoration using DNN**, *5th European Machine Vision Forum, 2022*  
-Saqib Nazir 
-[EMVA](https://emvf-2022.emva.b2match.io/components/19272?session=c2Vzc2lvbjoxMjc5NDE%3D)
-
-**Edge-preserving smoothing regularization for monocular depth estimation**, * 26th International Conference on Automation and Computing (ICAC), 2021*  
-Saqib Nazir, Daniela Coltuc 
-[ICAC](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9594153)
+**Earth Observation Semantic Data Mining: Latent Dirichlet Allocation-Based Approach**, *IEEE J-STARS - Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 2022*  
+Reza M. Asiyabi, Mihai Datcu
+[J-STARS](https://ieeexplore.ieee.org/abstract/document/9735293)
 
 
-**Cuckoo optimization algorithm based job scheduling using cloud and fog computing in smart grid**, * INCoS, 2018*  
-Saqib Nazir, Sundas Shafiq, Zafar Iqbal, Muhammad Zeeshan, Subhan Tariq, Nadeem Javaid
-[INCoS]([https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9594153](https://link.springer.com/chapter/10.1007/978-3-319-98557-2_4))
+**S1SLC_CVDL Dataset: A COMPLEX-VALUED ANNOTATED SINGLE LOOK COMPLEX SENTINEL-1 SAR DATASET FOR COMPLEX-VALUED DEEP NETWORKS Dataset**, *IEEE DataPort, 2023* 
+Reza M. Asiyabi, Mihai Datcu, Andrei Anghel and Holger Nies
+[S1SLC_CVDL](https://dx.doi.org/10.21227/nm4g-yd98)
+
+**Segment-based bag of visual words model for urban land cover mapping using polarimetric SAR data**, *Advances in Space Research, 2022*  
+Reza M. Asiyabi, Mahmood R. Sahebi, and Arsalan Ghorbanian, 
+[ASR](https://www.sciencedirect.com/science/article/abs/pii/S0273117721008024)
+
+**Ocean Remote Sensing Techniques and Applications: A Review (Part I and II)**, *Water, 2022*  
+Meisam Amani, Soroosh Mehravar, Reza M. Asiyabi, et al.
+[Water](https://www.mdpi.com/2073-4441/14/21/3401)
 
 
-**Priority based load balancing in cloud and fog based systems**, * BWCCA, 2018*  
-Subhan Tariq, Nadeem Javaid, Mahad Majeed, Fahad Ahmed, Saqib Nazir
-[BWCCA]([https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9594153](https://link.springer.com/chapter/10.1007/978-3-030-02613-4_65))
+**Mangrove Ecosystem Mapping Using Sentinel-1 and Sentinel-2 Satellite Images and Random Forest Algorithm in Google Earth Engine**, * MDPI Remote Sensing, 2021*  
+Arsalan Ghorbanian, Soheil Zaghian, Reza M. Asiyabi, Meisam Amani, Ali Mohammadzadeh, and Sadegh Jamali
+[Remote Sensing](https://www.mdpi.com/2072-4292/13/13/2565)
 
 
+**PolSAR Data Classification using Bag of Visual Words Algorithm**, * Journal of Geomatics Science and Technology , 2020 (in Persian)*  
+Reza M. Asiyabi, Mahmood R. Sahebi
+[JGST](http://jgst.issge.ir/article-1-780-en.htmlER)
+
+
+**Oil spill four-Class classification using UAVSAR polarimetric data**, * Ocean Science Journal , 2020*  
+Behnam Hassani, Mahmood R. Sahebi, Reza M. Asiyabi
+[OSJ](https://link.springer.com/article/10.1007/s12601-020-0023-9)
+
+
+#Selected Conference Papers
+
+**Complex-Valued Autoencoders with Coherence Preservation for SAR**, * EuSAR - European Conference on Synthetic Aperture Radar, 2022*  
+Reza M. Asiyabi, Mihai Datcu, Andrei Anghel and Holger Nies
+[EuSAR 2022](https://ieeexplore.ieee.org/abstract/document/9944319)
+
+
+**Complex-Valued Vs. Real-Valued Convolutional Neural Network for PolSAR Data Classification**, * IGARSS - IEEE International Geoscience and Remote Sensing Symposium, 2022* 
+Reza M. Asiyabi, Mihai Datcu, Holger Nies and Andrei Anghel
+[IGARSS 2022](https://ieeexplore.ieee.org/abstract/document/9884081)
+
+
+**Earth Observation Image Semantics: Latent Dirichlet Allocation Based Information Discovery**, * IGARSS - IEEE International Geoscience and Remote Sensing Symposium, 2021*   
+Reza M. Asiyabi, and Mihai Datcu
+[IGARSS 2021](https://ieeexplore.ieee.org/abstract/document/9553122)
