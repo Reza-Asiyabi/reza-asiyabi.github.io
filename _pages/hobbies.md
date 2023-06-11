@@ -12,17 +12,20 @@ Besides my work, I have a keen interest to travel and discover the world. The wo
   <a href="/images/Travel/Amsterdam.jpeg" title="Amsterdam, Netherlands" class="image-popup">
     <img class="gallery-img" src="/images/Travel/Amsterdam.jpeg" alt="Amsterdam, Netherlands">
   </a>
-  <a href="/images/sports/travels-2.JPG" title="Hiking the Anapurnas in Nepal" class="image-popup">
-    <img class="gallery-img" src="/images/sports/travels-2.JPG" alt="Hiking the Anapurnas in Nepal">
+  <a href="/images/Travel/Interlaken.jpeg" title="Paragliding in Swiss Alps - Interlaken" class="image-popup">
+    <img class="gallery-img" src="/images/Travel/Interlaken.jpeg" alt="Paragliding in Swiss Alps - Interlaken">
   </a>
-  <a href="/images/sports/travels-3.JPG" title="Travel in India" class="image-popup">
-    <img class="gallery-img" src="/images/sports/travels-3.JPG" alt="Travel in India">
+  <a href="/images/Travel/Munich - Octoberfest.jpeg" title="Oktobafest - Munich, Germany" class="image-popup">
+    <img class="gallery-img" src="/images/Travel/Munich - Octoberfest.jpeg" alt="Oktobafest - Munich, Germany">
   </a>
-  <a href="/images/sports/travels-4.JPG" title="Visiting Trieste" class="image-popup">
-    <img class="gallery-img" src="/images/sports/travels-4.JPG" alt="Visiting Trieste">
+  <a href="/images/Travel/Paris - With Saqib.jpeg" title="Paris, France with Saqib" class="image-popup">
+    <img class="gallery-img" src="/images/Travel/Paris - With Saqib.jpeg" alt="Paris, France with Saqib">
   </a>
-  <a href="/images/sports/travels-5.JPG" title="Visiting Venise" class="image-popup">
-    <img class="gallery-img" src="/images/sports/travels-5.JPG" alt="Visiting Venise">
+  <a href="/images/Travel/Reykjavik - With Omid.jpeg" title="Reykjavik, Iceland with Omid" class="image-popup">
+    <img class="gallery-img" src="/images/Travel/Reykjavik - With Omid.jpeg" alt="Reykjavik, Iceland with Omid">
+  </a>
+    <a href="/images/Travel/Venice - With Shaahin.jpeg" title="Venice, Italy with Shaahin" class="image-popup">
+    <img class="gallery-img" src="/images/Travel/Venice - With Shaahin.jpeg" alt="Venice, Italy with Shaahin">
   </a>
 </div>
 <p class="gallery-caption">Some of the places I've traveled to</p>
