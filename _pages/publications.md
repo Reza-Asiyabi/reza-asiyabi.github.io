@@ -6,7 +6,7 @@ author_profile: true
 classes: wide
 ---
 
-Here is a a numebr of my selected publications. For the full list, please visit my [google schoalr](https://scholar.google.com/citations?user=jKpl5lQAAAAJ&hl=en) page.
+Here is a numebr of my selected publications. For the full list, please visit my [google scholar](https://scholar.google.com/citations?user=jKpl5lQAAAAJ&hl=en) page.
 
 ---
 
