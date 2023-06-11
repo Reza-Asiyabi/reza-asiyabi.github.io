@@ -34,7 +34,7 @@ Meisam Amani, Soroosh Mehravar, Reza M. Asiyabi, et al.
 [Water](https://www.mdpi.com/2073-4441/14/21/3401)
 
 
-**Mangrove Ecosystem Mapping Using Sentinel-1 and Sentinel-2 Satellite Images and Random Forest Algorithm in Google Earth Engine**, *MDPI Remote Sensing, 2021*
+**Mangrove Ecosystem Mapping Using Sentinel-1 and Sentinel-2 Satellite Images and Random Forest Algorithm in Google Earth Engine**, *MDPI Remote Sensing, 2021*  
 Arsalan Ghorbanian, Soheil Zaghian, Reza M. Asiyabi, Meisam Amani, Ali Mohammadzadeh, and Sadegh Jamali
 [Remote Sensing](https://www.mdpi.com/2072-4292/13/13/2565)
 
@@ -56,7 +56,7 @@ Reza M. Asiyabi, Mihai Datcu, Andrei Anghel and Holger Nies
 [EuSAR 2022](https://ieeexplore.ieee.org/abstract/document/9944319)
 
 
-**Complex-Valued Vs. Real-Valued Convolutional Neural Network for PolSAR Data Classification**, *IGARSS - IEEE International Geoscience and Remote Sensing Symposium, 2022*
+**Complex-Valued Vs. Real-Valued Convolutional Neural Network for PolSAR Data Classification**, *IGARSS - IEEE International Geoscience and Remote Sensing Symposium, 2022*  
 Reza M. Asiyabi, Mihai Datcu, Holger Nies and Andrei Anghel
 [IGARSS 2022](https://ieeexplore.ieee.org/abstract/document/9884081)
 
