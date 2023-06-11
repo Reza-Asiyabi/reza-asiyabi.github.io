@@ -27,6 +27,9 @@ Besides my work, I have a keen interest to travel and discover the world. The wo
     <a href="/images/Travel/Venice - With Shaahin.jpeg" title="Venice, Italy with Shaahin" class="image-popup">
     <img class="gallery-img" src="/images/Travel/Venice - With Shaahin.jpeg" alt="Venice, Italy with Shaahin">
   </a>
+    <a href="/images/Travel/Venice - Biennale.jpeg" title="Biennale - Venice, Italy" class="image-popup">
+    <img class="gallery-img" src="/images/Travel/Venice - Biennale.jpeg" alt="Biennale - Venice, Italy">
+  </a>
 </div>
 <p class="gallery-caption">Some of the places I've traveled to</p>
 
