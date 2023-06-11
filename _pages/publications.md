@@ -10,7 +10,7 @@ Here is a a numebr of my selected publications. For the full list, please visit 
 
 ---
 
-#Selected Journal Papers 
+***Selected Journal Papers 
 
 **Complex-Valued End-to-End Deep Network with Coherency Preservation for Complex-Valued SAR Data Reconstruction and Classification**, *IEEE TGRS - Transactions on Geoscience and Remote Sensing, 2023*  
 Reza M. Asiyabi, Mihai Datcu, Andrei Anghel and Holger Nies
@@ -21,7 +21,7 @@ Reza M. Asiyabi, Mihai Datcu
 [J-STARS](https://ieeexplore.ieee.org/abstract/document/9735293)
 
 
-**S1SLC_CVDL Dataset: A COMPLEX-VALUED ANNOTATED SINGLE LOOK COMPLEX SENTINEL-1 SAR DATASET FOR COMPLEX-VALUED DEEP NETWORKS Dataset**, *IEEE DataPort, 2023* 
+**S1SLC_CVDL Dataset: A COMPLEX-VALUED ANNOTATED SINGLE LOOK COMPLEX SENTINEL-1 SAR DATASET FOR COMPLEX-VALUED DEEP NETWORKS Dataset**, *IEEE DataPort, 2023*
 Reza M. Asiyabi, Mihai Datcu, Andrei Anghel and Holger Nies
 [S1SLC_CVDL](https://dx.doi.org/10.21227/nm4g-yd98)
 
@@ -34,33 +34,33 @@ Meisam Amani, Soroosh Mehravar, Reza M. Asiyabi, et al.
 [Water](https://www.mdpi.com/2073-4441/14/21/3401)
 
 
-**Mangrove Ecosystem Mapping Using Sentinel-1 and Sentinel-2 Satellite Images and Random Forest Algorithm in Google Earth Engine**, * MDPI Remote Sensing, 2021*  
+**Mangrove Ecosystem Mapping Using Sentinel-1 and Sentinel-2 Satellite Images and Random Forest Algorithm in Google Earth Engine**, *MDPI Remote Sensing, 2021*
 Arsalan Ghorbanian, Soheil Zaghian, Reza M. Asiyabi, Meisam Amani, Ali Mohammadzadeh, and Sadegh Jamali
 [Remote Sensing](https://www.mdpi.com/2072-4292/13/13/2565)
 
 
-**PolSAR Data Classification using Bag of Visual Words Algorithm**, * Journal of Geomatics Science and Technology , 2020 (in Persian)*  
+**PolSAR Data Classification using Bag of Visual Words Algorithm**, *Journal of Geomatics Science and Technology , 2020 (in Persian)*  
 Reza M. Asiyabi, Mahmood R. Sahebi
 [JGST](http://jgst.issge.ir/article-1-780-en.htmlER)
 
 
-**Oil spill four-Class classification using UAVSAR polarimetric data**, * Ocean Science Journal , 2020*  
+**Oil spill four-Class classification using UAVSAR polarimetric data**, *Ocean Science Journal , 2020*  
 Behnam Hassani, Mahmood R. Sahebi, Reza M. Asiyabi
 [OSJ](https://link.springer.com/article/10.1007/s12601-020-0023-9)
 
 
-#Selected Conference Papers
+***Selected Conference Papers
 
-**Complex-Valued Autoencoders with Coherence Preservation for SAR**, * EuSAR - European Conference on Synthetic Aperture Radar, 2022*  
+**Complex-Valued Autoencoders with Coherence Preservation for SAR**, *EuSAR - European Conference on Synthetic Aperture Radar, 2022*  
 Reza M. Asiyabi, Mihai Datcu, Andrei Anghel and Holger Nies
 [EuSAR 2022](https://ieeexplore.ieee.org/abstract/document/9944319)
 
 
-**Complex-Valued Vs. Real-Valued Convolutional Neural Network for PolSAR Data Classification**, * IGARSS - IEEE International Geoscience and Remote Sensing Symposium, 2022* 
+**Complex-Valued Vs. Real-Valued Convolutional Neural Network for PolSAR Data Classification**, *IGARSS - IEEE International Geoscience and Remote Sensing Symposium, 2022* 
 Reza M. Asiyabi, Mihai Datcu, Holger Nies and Andrei Anghel
 [IGARSS 2022](https://ieeexplore.ieee.org/abstract/document/9884081)
 
 
-**Earth Observation Image Semantics: Latent Dirichlet Allocation Based Information Discovery**, * IGARSS - IEEE International Geoscience and Remote Sensing Symposium, 2021*   
+**Earth Observation Image Semantics: Latent Dirichlet Allocation Based Information Discovery**, *IGARSS - IEEE International Geoscience and Remote Sensing Symposium, 2021*   
 Reza M. Asiyabi, and Mihai Datcu
 [IGARSS 2021](https://ieeexplore.ieee.org/abstract/document/9553122)
