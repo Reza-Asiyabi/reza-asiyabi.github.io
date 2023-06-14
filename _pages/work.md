@@ -61,7 +61,7 @@ My main focus in this project was on the development of various deep learning-ba
 <span class="small-grey"><i class="fas fa-tools" aria-hidden="true"></i>  Earth Observation, SAR, AI, Deep Learning, Compression, Python</span>  
 Key personel and researcher at the Artificial Intelligence for SAR Data Compression (ARTISTE) project. The project is funded by European Space Agency (ESA) and aims aims to provide artificial intelligent-based solutions for SAR raw data compression for future ESA missions in collaboration with DLR and Airbus teams.
 
-<i class="fas fa-plus small-grey"></i> Contribution in writing the project proposal
+<i class="fas fa-plus small-grey"></i> Contribution in writing the project proposal.  
 <i class="fas fa-plus small-grey"></i> Development of deep-learning-based compression methods for SAR data comrpession.   
 
 {% include gallery id="gallery2" caption="" %}
@@ -72,7 +72,7 @@ Key personel and researcher at the Artificial Intelligence for SAR Data Compress
 Research secondment at the University of Siegen, [Zentrum für Sensorsysteme (ZESS)](https://www.uni-siegen.de/zess/index.html?lang=de), Germany, in the frame of the [MENELAOS-NT](https://www.menelaos-nt.eu/) European Training Network (ETN) H2020-MSCA-ITN project. The main focus of the secondment was on the development of the complex-valued deep architectures for SAR data classification and the comparison between complex- and real-valued architectures.
 
 <i class="fas fa-plus small-grey"></i> Development of complex-valued deep architectures.   
-<i class="fas fa-plus small-grey"></i> compartive study between the complex- and real-valued deep architectures for SAR data classification.
+<i class="fas fa-plus small-grey"></i> compartive study between the complex- and real-valued deep architectures for SAR data classification.  
 <i class="fas fa-plus small-grey"></i> Presentation of the results in various conferences and forums, including IGARSS 2022, EuSAR 2022, and MENELAOS Forum 2022.
 
 <span class="small-grey"><i class="fab fa-fw fa-github" aria-hidden="true"></i>[Source code](https://github.com/Reza-Asiyabi/Complex-Valued-End-to-End-Deep-Network-for-SAR)</span>
