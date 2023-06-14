@@ -57,7 +57,7 @@ My main focus in this project was on the development of various deep learning-ba
 <i class="fas fa-plus small-grey"></i> Development of the complex-valued SAR dataset for training  of the deep architectures, [S1SLC-CVDL dataset](https://dx.doi.org/10.21227/nm4g-yd98).
 
 <span class="small-grey"><i class="fab fa-fw fa-github" aria-hidden="true"></i>[Source code](https://github.com/Reza-Asiyabi/Complex-Valued-End-to-End-Deep-Network-for-SAR)</span>
-{% include gallery id="gallery1" caption="iDFD dataset" %}
+{% include gallery id="gallery1" caption="" %}
 
 
 **Visiting Researcher**, *Ingeniería INSITU (INSITU Engineering)* <span class="pull-right">2022 - 2022</span>  
