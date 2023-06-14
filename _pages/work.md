@@ -39,6 +39,11 @@ gallery3:
     image_path: /images/Projects/IGARSS2022 Architecture.png
     alt: "Complex-valued Deep Architecurre for Classification"
     title: "Complex-valued Deep Architecurre for Classification"
+gallery4:
+  - url: /images/Projects/Seg-BOVW Flowchart.png
+    image_path: /images/Projects/Seg-BOVW Flowchart.png
+    alt: "Seg-BOVW"
+    title: "Seg-BOVW"
 
 ---
 
@@ -79,12 +84,10 @@ Research secondment at the University of Siegen, [Zentrum für Sensorsysteme (ZE
 {% include gallery id="gallery3" caption="" %}
 
 
-
-
-
-**Machine learning internship**, *NCIA* <span class="pull-right">2017 - 2020</span>  
+**Researcher**, *Remote Sensing Lab, K.N. Toosi University of Technology* <span class="pull-right">2017 - 2020</span>  
 <span class="small-grey"><i class="fas fa-tools" aria-hidden="true"></i>  AI, Deep Learning, Machine Vision, Python</span>  
-End of study intership in a research lab working on natural language processing. Implementation of a statistical translation tool for text messages.  
-<i class="fas fa-plus small-grey"></i> Implementation of a state of the art statistical translation tool  
+Master student and researcher at the [Remote Sensing lab of the faculty of Geodesy & Geomatics Engineering, K.N. Toosi University of Technology](https://en.kntu.ac.ir/geomatics/). The main focus of my research was development of machine learning algorithms for SAR data classification.  
+<i class="fas fa-plus small-grey"></i> Development of Segment-based Bag of Visual Words (BOVW) method for enhancment of SAR data classification
 <i class="fas fa-plus small-grey"></i> Master's research thesis  
-
+<span class="small-grey"><i class="fab fa-fw fa-github" aria-hidden="true"></i>[Source code](https://github.com/Reza-Asiyabi/Seg-BOVW)</span>
+{% include gallery id="gallery4" caption="" %}
