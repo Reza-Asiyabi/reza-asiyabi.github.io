@@ -18,6 +18,15 @@ gallery1:
     alt: "Semantic Information Discovery"
     title: "Semantic Information Discovery"
 gallery2:
+  - url: /images/Projects/RS Data Compression Scheme.png
+    image_path: /images/Projects/RS Data Compression Scheme.png
+    alt: "Remote Sensig data compression scheme"
+    title: "Remote Sensig data compression scheme"
+  - url: /images/Projects/IGARSS 2023 Architecture.png
+    image_path: /images/Projects/IGARSS 2023 Architecture.png
+    alt: "Deep Architecurre for SAR data compression"
+    title: "Deep Architecurre for SAR data compression"
+gallery3:
   - url: /images/Conferences/Siegen - MENELAOS Forum Presentation.jpeg
     image_path: /images/Conferences/Siegen - MENELAOS Forum Presentation.jpeg
     alt: "MENELAOS Forum Presentation"
@@ -30,19 +39,7 @@ gallery2:
     image_path: /images/Projects/IGARSS2022 Architecture.png
     alt: "Complex-valued Deep Architecurre for Classification"
     title: "Complex-valued Deep Architecurre for Classification"
-gallery3:
-  - url: /images/projects/massiccc-1.jpg
-    image_path: /images/projects/thumbs/massiccc-1.jpg
-    alt: "MASSICCC web app screenshot"
-    title: "MASSICCC web app"
-  - url: /images/projects/massiccc-2.jpg
-    image_path: /images/projects/thumbs/massiccc-2.jpg
-    alt: "MASSICCC web app screenshot"
-    title: "MASSICCC web app"
-  - url: /images/projects/massiccc-3.jpg
-    image_path: /images/projects/thumbs/massiccc-3.jpg
-    alt: "MASSICCC web app screenshot"
-    title: "MASSICCC web app"
+
 ---
 
 **Assistant Reseracher**, *Research Center for Spatial Information (CEOSpace Tech)* <span class="pull-right">2020 - 2023 (Expected) </span>  
@@ -60,6 +57,16 @@ My main focus in this project was on the development of various deep learning-ba
 {% include gallery id="gallery1" caption="" %}
 
 
+**Researcher**, *Research Center for Spatial Information (CEOSpace Tech) - ARTISTE Project* <span class="pull-right">2022 - 2023</span>  
+<span class="small-grey"><i class="fas fa-tools" aria-hidden="true"></i>  Earth Observation, SAR, AI, Deep Learning, Compression, Python</span>  
+Key personel and researcher at the Artificial Intelligence for SAR Data Compression (ARTISTE) project. The project is funded by European Space Agency (ESA) and aims aims to provide artificial intelligent-based solutions for SAR raw data compression for future ESA missions in collaboration with DLR and Airbus teams.
+
+<i class="fas fa-plus small-grey"></i> Contribution in writing the project proposal
+<i class="fas fa-plus small-grey"></i> Development of deep-learning-based compression methods for SAR data comrpession.   
+
+{% include gallery id="gallery2" caption="" %}
+
+
 **Visiting Researcher**, *Zentrum für Sensorsysteme (ZESS)* <span class="pull-right">2021 - 2022</span>  
 <span class="small-grey"><i class="fas fa-tools" aria-hidden="true"></i>  Earth Observation, SAR, AI, Deep Learning, Machine Vision, Python</span>  
 Research secondment at the University of Siegen, [Zentrum für Sensorsysteme (ZESS)](https://www.uni-siegen.de/zess/index.html?lang=de), Germany, in the frame of the [MENELAOS-NT](https://www.menelaos-nt.eu/) European Training Network (ETN) H2020-MSCA-ITN project. The main focus of the secondment was on the development of the complex-valued deep architectures for SAR data classification and the comparison between complex- and real-valued architectures.
@@ -69,20 +76,9 @@ Research secondment at the University of Siegen, [Zentrum für Sensorsysteme (ZE
 <i class="fas fa-plus small-grey"></i> Presentation of the results in various conferences and forums, including IGARSS 2022, EuSAR 2022, and MENELAOS Forum 2022.
 
 <span class="small-grey"><i class="fab fa-fw fa-github" aria-hidden="true"></i>[Source code](https://github.com/Reza-Asiyabi/Complex-Valued-End-to-End-Deep-Network-for-SAR)</span>
-{% include gallery id="gallery2" caption="" %}
+{% include gallery id="gallery3" caption="" %}
 
 
-**Visiting Researcher**, *CiTIUS (Centro Singular de Investigación en Tecnoloxías Intelixentes)* <span class="pull-right">2021 - 2021</span>  
-<span class="small-grey"><i class="fas fa-tools" aria-hidden="true"></i>  Earth Observation, SAR, AI, Deep Learning, Machine Vision, Python</span>  
-Research engineer within the CiTIUS, working on [European Training Network (ETN) MENELAOS](https://www.menelaos-nt.eu/) project. This collaboration was done between CiTIUS team for the development of 2HDED:NET. 
-
-<i class="fas fa-plus small-grey"></i> Development of 2HDED:NET. 
-<i class="fas fa-plus small-grey"></i> Training and testing of 2HDED:NET on NYU-Depth v2 and Make3D datasets for DFD and Image deblurring. 
-<i class="fas fa-plus small-grey"></i> Public presentation of the project, as well as contributing to research papers. 
-
-<span class="small-grey"><i class="fab fa-fw fa-github" aria-hidden="true"></i>[Source code](https://ieeexplore.ieee.org/document/9897352)</span>
-<span class="small-grey"><i class="fab fa-fw fa-chrome" aria-hidden="true"></i>[Web app](https://ieeexplore.ieee.org/document/9897352)</span>
-{% include gallery id="gallery2" caption="2HDED:NET for Joint DFD and Image Deblurring" %}
 
 
 
