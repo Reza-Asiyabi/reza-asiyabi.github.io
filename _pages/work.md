@@ -5,14 +5,18 @@ permalink: /work/
 author_profile: true
 classes: wide
 gallery1:
-  - url: /images/projects/vigo1.png
-    image_path: /images/projects/vigo1.png
-    alt: "iDFD"
-    title: "iDFD"
-  - url: /images/projects/vigo2.png
-    image_path: /images/projects/vigo2.png
-    alt: "iDFD-samples"
-    title: "iDFD-samples"
+  - url: /images/Projects/TGRS Architecture.png
+    image_path: /images/Projects/TGRS Architecture.png
+    alt: "Complex-Valued Deep Architecture"
+    title: "Complex-Valued Deep Architecture"
+  - url: /images/Projects/S1SLC-CVDL Dataset.png
+    image_path: /images/Projects/S1SLC-CVDL Dataset.png
+    alt: "S1SLC-CVDL Dataset"
+    title: "S1SLC-CVDL Dataset"
+  - url: /images/Projects/J-STARS Semantic Information Discovery.png
+    image_path: /images/Projects/J-STARS Semantic Information Discovery.png
+    alt: "Semantic Information Discovery"
+    title: "Semantic Information Discovery"
 gallery2:
   - url: /images/projects/citius1.PNG
     image_path: /images/projects/thumbs/citius1.PNG
@@ -41,16 +45,19 @@ gallery3:
     title: "MASSICCC web app"
 ---
 
-**Assistant Reseracher**, *CEOSpace Tech* <span class="pull-right">2023 - </span>  
-<span class="small-grey"><i class="fas fa-tools" aria-hidden="true"></i> AI, Deep Learning, Machine Vision, Python</span>  
-Assistant Reseracher for [European Training Network (ETN) MENELAOS](https://www.menelaos-nt.eu/) mission. Acquiring 3D geometry of the scene is essential for many applications in the areas of navigation, robotics, scene understanding, etc. Among the existing approaches, those using passive devices are of increased interest since they allow the use of compact, standard and low cost imaging systems like DSLR cameras. There are many depth cues that can be used to extract the 3D geometry. In single shot images, the depth is laying in the blur, shadows of objects, chromatic effects and shape distortions caused by lens aberrations, etc.  When multiple images are used, depth information comes from perspective change like in binocular systems or structures motion in video sequences. The physics of these effects is well known and more or less accurate mathematical models exist and are used by analytical image processing methods that are generally prone to heavy calculation.
-The entrance of the newcoming Deep Neural Networks (DNN) on the stage of signal processing has boosted the subject due to their capability to learn complex models that ingest multiple effects, not only single ones as analytical approaches are doing. The flexibility in learning and the fast processing once the training is accomplished make DNNs a very promising tool in building the 3D geometry of scenes from easy-to-acquire images.
+**Assistant Reseracher**, *Research Center for Spatial Information (CEOSpace Tech)* <span class="pull-right">2020 - 2023 (Expected) </span>  
+<span class="small-grey"><i class="fas fa-tools" aria-hidden="true"></i> Earth Observation, SAR, AI, Deep Learning, Machine Vision, Python</span>  
+Assistant Reseracher and PhD student at the University POLITEHNICA of Bucharest (UPB), [Research Center for Spatial Information (CEOSpaceTech)](http://ceospacetech.pub.ro/), Bucharest, Romania, in the frame of the [MENELAOS-NT](https://www.menelaos-nt.eu/) European Training Network (ETN) H2020-MSCA-ITN project. The MENELAOS-NT project applies novel technologies to realize multimodal – multi sensor data fusion to optimally combine the information, delivered by different sensors (in-situ/remote, optical/non optical) on different scales, with different resolutions and with different reliability.
+My main focus in this project was on the development of various deep learning-based solutions for Synthetic Aperture Radar (SAR) data applications.
 
 
-<i class="fas fa-plus small-grey"></i> Study of physical foundation for depth cues in images and evaluation of their potential in existing methods for depth mapping.  
-<i class="fas fa-plus small-grey"></i> Elaboration of DNN-based solutions for depth inference from single shot images by exploiting defocus and other depth cues.  
-<i class="fas fa-plus small-grey"></i> Definition of benchmarks for DNN training, validation and testing.
-<i class="fas fa-plus small-grey"></i> Evaluation of the accuracy of depth maps obtained with the DNNs using indoor and outdoor image collection.
+<i class="fas fa-plus small-grey"></i> Study the fundumentals of the Synthetic Aperture Radar (SAR) imaging systems and image formation.  
+<i class="fas fa-plus small-grey"></i> Elaboration of deep learning-based solutions for various applications of SAR data, such as data compression, land cover classification, and semantic data mining.  
+<i class="fas fa-plus small-grey"></i> Development of the complex-valued deep architectures for complex-valued SAR data.
+<i class="fas fa-plus small-grey"></i> Development of the complex-valued SAR dataset for training  of the deep architectures, [S1SLC-CVDL dataset](https://dx.doi.org/10.21227/nm4g-yd98).
+
+<span class="small-grey"><i class="fab fa-fw fa-github" aria-hidden="true"></i>[Source code](https://github.com/Reza-Asiyabi/Complex-Valued-End-to-End-Deep-Network-for-SAR)</span>
+{% include gallery id="gallery1" caption="iDFD dataset" %}
 
 
 **Visiting Researcher**, *Ingeniería INSITU (INSITU Engineering)* <span class="pull-right">2022 - 2022</span>  
