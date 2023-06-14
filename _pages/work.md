@@ -87,7 +87,7 @@ Research secondment at the University of Siegen, [Zentrum für Sensorsysteme (ZE
 **Researcher**, *Remote Sensing Lab, K.N. Toosi University of Technology* <span class="pull-right">2016 - 2018</span>  
 <span class="small-grey"><i class="fas fa-tools" aria-hidden="true"></i>   Earth Observation, SAR, Machine Vision, Python</span>  
 Master student and researcher at the [Remote Sensing lab of the faculty of Geodesy & Geomatics Engineering, K.N. Toosi University of Technology](https://en.kntu.ac.ir/geomatics/). The main focus of my research was development of machine learning algorithms for SAR data classification.  
-<i class="fas fa-plus small-grey"></i> Development of Segment-based Bag of Visual Words (BOVW) method for enhancment of SAR data classification
+<i class="fas fa-plus small-grey"></i> Development of Segment-based Bag of Visual Words (BOVW) method for enhancment of SAR data classification.  
 <i class="fas fa-plus small-grey"></i> Master's research thesis  
 <span class="small-grey"><i class="fab fa-fw fa-github" aria-hidden="true"></i>[Source code](https://github.com/Reza-Asiyabi/Seg-BOVW)</span>
 {% include gallery id="gallery4" caption="" %}
