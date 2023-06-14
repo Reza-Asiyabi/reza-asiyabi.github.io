@@ -18,18 +18,18 @@ gallery1:
     alt: "Semantic Information Discovery"
     title: "Semantic Information Discovery"
 gallery2:
-  - url: /images/projects/citius1.PNG
-    image_path: /images/projects/thumbs/citius1.PNG
-    alt: "Menelaos Summer School @ CiTIUS"
-    title: "Menelaos Summer School @ CiTIUS"
-  - url: /images/projects/citius2.png
-    image_path: /images/projects/thumbs/citius2.png
-    alt: "2HDED:NET"
-    title: "2HDED:NET"
-  - url: /images/projects/citius3.png
-    image_path: /images/projects/thumbs/citius3.png
-    alt: "MENELAOS"
-    title: "MENELAOS"
+  - url: /images/Conferences/Siegen - MENELAOS Forum Presentation.jpeg
+    image_path: /images/Conferences/Siegen - MENELAOS Forum Presentation.jpeg
+    alt: "MENELAOS Forum Presentation"
+    title: "MENELAOS Forum Presentation"
+  - url: /images/Projects/Flowchart-EuSAR2021.png
+    image_path: /images/Projects/Flowchart-EuSAR2021.png
+    alt: "Complex-valued Deep Architecture with Coherence preservation"
+    title: "Complex-valued Deep Architecture with Coherence preservation"
+  - url: /images/Projects/IGARSS2022 Architecture.png
+    image_path: /images/Projects/IGARSS2022 Architecture.png
+    alt: "Complex-valued Deep Architecurre for Classification"
+    title: "Complex-valued Deep Architecurre for Classification"
 gallery3:
   - url: /images/projects/massiccc-1.jpg
     image_path: /images/projects/thumbs/massiccc-1.jpg
@@ -51,30 +51,29 @@ Assistant Reseracher and PhD student at the University POLITEHNICA of Bucharest 
 My main focus in this project was on the development of various deep learning-based solutions for Synthetic Aperture Radar (SAR) data applications.
 
 
-<i class="fas fa-plus small-grey"></i> Study the fundumentals of the Synthetic Aperture Radar (SAR) imaging systems and image formation.  
+<i class="fas fa-plus small-grey"></i> Study the fundumentals of the SAR imaging systems and image formation.  
 <i class="fas fa-plus small-grey"></i> Elaboration of deep learning-based solutions for various applications of SAR data, such as data compression, land cover classification, and semantic data mining.  
-<i class="fas fa-plus small-grey"></i> Development of the complex-valued deep architectures for complex-valued SAR data.
+<i class="fas fa-plus small-grey"></i> Development of the complex-valued deep architectures for complex-valued SAR data.  
 <i class="fas fa-plus small-grey"></i> Development of the complex-valued SAR dataset for training  of the deep architectures, [S1SLC-CVDL dataset](https://dx.doi.org/10.21227/nm4g-yd98).
 
 <span class="small-grey"><i class="fab fa-fw fa-github" aria-hidden="true"></i>[Source code](https://github.com/Reza-Asiyabi/Complex-Valued-End-to-End-Deep-Network-for-SAR)</span>
 {% include gallery id="gallery1" caption="" %}
 
 
-**Visiting Researcher**, *Ingeniería INSITU (INSITU Engineering)* <span class="pull-right">2022 - 2022</span>  
-<span class="small-grey"><i class="fas fa-tools" aria-hidden="true"></i>  AI, Deep Learning, Machine Vision, Python</span>  
-Research engineer, within the Ingeniería INSITU (INSITU Engineering) team. The aim of this resreach stay at University of Vigo was to explore the LiDAR and TOF cameras, devlope a real dataset for Depth from Defocus. The iDFD is opend source dataset that can be used for 3D indoor applications. [iDFD](https://github.com/saqibnaziir/iDFD)
+**Visiting Researcher**, *Zentrum für Sensorsysteme (ZESS)* <span class="pull-right">2021 - 2022</span>  
+<span class="small-grey"><i class="fas fa-tools" aria-hidden="true"></i>  Earth Observation, SAR, AI, Deep Learning, Machine Vision, Python</span>  
+Research secondment at the University of Siegen, [Zentrum für Sensorsysteme (ZESS)](https://www.uni-siegen.de/zess/index.html?lang=de), Germany, in the frame of the [MENELAOS-NT](https://www.menelaos-nt.eu/) European Training Network (ETN) H2020-MSCA-ITN project. The main focus of the secondment was on the development of the complex-valued deep architectures for SAR data classification and the comparison between complex- and real-valued architectures.
 
-<i class="fas fa-plus small-grey"></i> Contribution to open-source projects for the team.   
-<i class="fas fa-plus small-grey"></i> Devlopment of iDFD dataset.
-<i class="fas fa-plus small-grey"></i> Public presentation of the project, as well as contributing to research papers.
+<i class="fas fa-plus small-grey"></i> Development of complex-valued deep architectures.   
+<i class="fas fa-plus small-grey"></i> compartive study between the complex- and real-valued deep architectures for SAR data classification.
+<i class="fas fa-plus small-grey"></i> Presentation of the results in various conferences and forums, including IGARSS 2022, EuSAR 2022, and MENELAOS Forum 2022.
 
-<span class="small-grey"><i class="fab fa-fw fa-github" aria-hidden="true"></i>[Source code](https://github.com/saqibnaziir/iDFD)</span>
-<span class="small-grey"><i class="fab fa-fw fa-chrome" aria-hidden="true"></i>[Web app](https://github.com/saqibnaziir/iDFD)</span>
-{% include gallery id="gallery1" caption="iDFD dataset" %}
+<span class="small-grey"><i class="fab fa-fw fa-github" aria-hidden="true"></i>[Source code](https://github.com/Reza-Asiyabi/Complex-Valued-End-to-End-Deep-Network-for-SAR)</span>
+{% include gallery id="gallery2" caption="" %}
 
 
 **Visiting Researcher**, *CiTIUS (Centro Singular de Investigación en Tecnoloxías Intelixentes)* <span class="pull-right">2021 - 2021</span>  
-<span class="small-grey"><i class="fas fa-tools" aria-hidden="true"></i>  AI, Deep Learning, Machine Vision, Python</span>  
+<span class="small-grey"><i class="fas fa-tools" aria-hidden="true"></i>  Earth Observation, SAR, AI, Deep Learning, Machine Vision, Python</span>  
 Research engineer within the CiTIUS, working on [European Training Network (ETN) MENELAOS](https://www.menelaos-nt.eu/) project. This collaboration was done between CiTIUS team for the development of 2HDED:NET. 
 
 <i class="fas fa-plus small-grey"></i> Development of 2HDED:NET. 
