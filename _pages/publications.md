@@ -64,4 +64,4 @@ Reza M. Asiyabi, Mihai Datcu, Holger Nies and Andrei Anghel
 
 **Earth Observation Image Semantics: Latent Dirichlet Allocation Based Information Discovery**, *IGARSS - IEEE International Geoscience and Remote Sensing Symposium, 2021*   
 Reza M. Asiyabi, and Mihai Datcu
-[IGARSS 2021](https://ieeexplore.ieee.org/abstract/document/9553122)
+[Article](https://ieeexplore.ieee.org/abstract/document/9553122)
