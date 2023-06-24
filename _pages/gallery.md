@@ -5,7 +5,7 @@ author_profile: true
 classes: wide
 ---
 
-Besides my work, I have a keen interest to travel and discover the world. The world is pretty amazing and I absolutely love exploring new places, meeting new people with diverse background, trying new activities, and making new friends. Here are a few photos from my travels ;) 
+Besides my work, I have a keen interest to travel and discover the world. The world is pretty amazing and I absolutely love exploring new places, meeting new people with diverse background, trying new activities, and making new friends. Here are a few photos from my travels. I can't wait to explore more and snap more photos like these that will make memories for a lifetime ;) 
 
 
 <div class="gallery-scroll">
@@ -33,7 +33,7 @@ Besides my work, I have a keen interest to travel and discover the world. The wo
 </div>
 <p class="gallery-caption">Some of the places I've traveled to</p>
 
-I like to keep in shape by praticing sports as much as possible. I regularly rock climb, ski, sail and kite surf and I'm always looking to discover new activities.
+I love almost any kind of sports and I like to keep in shape by praticing sports as much as possible. Exercise and gym is my daily ruotine but I also enjoy occasional basketball, football, hiking, ski, and I'm always looking to discover new activities.
 
 <div class="gallery-scroll">
   <a href="/images/sports/sports-1.JPG" title="Climbing the Calanques" class="image-popup">
