@@ -12,7 +12,6 @@ p {
 }
 </style>
 
-
 ---
 
 **Research Assistant and PhD student** - 2020 to 2023 (expected)  
