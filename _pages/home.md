@@ -34,6 +34,4 @@ Please take a look at [some of my work](/work).
 - [Oct 2021] Visiting Reseracher @ Zentrum für Sensorsysteme (ZESS), University of Siegen, Germany [ZESS](https://www.uni-siegen.de/zess/)
 
 
-[Read more ..]
-
 Please contact me with any questions (email on the left).
