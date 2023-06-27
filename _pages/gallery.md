@@ -5,6 +5,12 @@ author_profile: true
 classes: wide
 ---
 
+<style>
+p {
+  text-align: justify;
+}
+</style>
+
 Besides my work, I have a keen interest to travel and discover the world. The world is pretty amazing and I absolutely love exploring new places, meeting new people with diverse backgrounds, trying new activities, and making new friends. Here are a few photos from my travels. I can't wait to explore more and snap more photos like these that will make memories for a lifetime ;) 
 
 
