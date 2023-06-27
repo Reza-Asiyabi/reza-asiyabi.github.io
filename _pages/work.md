@@ -45,6 +45,12 @@ gallery4:
     alt: "Seg-BOVW"
     title: "Seg-BOVW"
 
+<style>
+p {
+  text-align: justify;
+}
+</style>
+
 ---
 
 **Assistant Researcher**, *Research Center for Spatial Information (CEOSpace Tech)* <span class="pull-right">2020 - 2023 (Expected) </span>  
