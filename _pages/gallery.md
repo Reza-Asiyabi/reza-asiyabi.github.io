@@ -5,7 +5,7 @@ author_profile: true
 classes: wide
 ---
 
-Besides my work, I have a keen interest to travel and discover the world. The world is pretty amazing and I absolutely love exploring new places, meeting new people with diverse background, trying new activities, and making new friends. Here are a few photos from my travels. I can't wait to explore more and snap more photos like these that will make memories for a lifetime ;) 
+Besides my work, I have a keen interest to travel and discover the world. The world is pretty amazing and I absolutely love exploring new places, meeting new people with diverse backgrounds, trying new activities, and making new friends. Here are a few photos from my travels. I can't wait to explore more and snap more photos like these that will make memories for a lifetime ;) 
 
 
 <div class="gallery-scroll">
@@ -33,7 +33,7 @@ Besides my work, I have a keen interest to travel and discover the world. The wo
 </div>
 <p class="gallery-caption">Some of the places I've traveled to</p>
 
-I love almost any kind of sports and I like to keep in shape by praticing sports as much as possible. Exercise and gym is my daily ruotine but I also enjoy occasional basketball, football, hiking, ski, and I'm always looking to discover new activities.
+I love almost any kind of sports and I like to keep in shape by practicing sports as much as possible. Exercise and gym are my daily routines but I also enjoy occasional basketball, football, hiking, ski, and I'm always looking to discover new activities.
 
 <div class="gallery-scroll">
   <a href="/images/Sports/Basketball.jpeg" title="Basketball" class="image-popup">
@@ -48,7 +48,7 @@ I love almost any kind of sports and I like to keep in shape by praticing sports
 </div>
 <p class="gallery-caption">Some of the sports I practice</p>
 
-I have presented my work in several conferences, symposiums, and events, including ESA Phi-week 2021, IGARSS 2021, IGARSS 2022, EuSAR 2022, ESA LPS 2022, MENELAOS Forums, and more. Here are a few photos of my presentations in these events.
+I have presented my work at several conferences, symposiums, and events, including ESA Phi-week 2021, IGARSS 2021, IGARSS 2022, EuSAR 2022, ESA LPS 2022, MENELAOS Forums, and more. Here are a few photos of my presentations at these events.
 
 <div class="gallery-scroll">
   <a href="/images/Conferences/Bonn - LPS.jpeg" title="ESA LPS 2022, Bonn, Germany" class="image-popup">
