@@ -6,7 +6,7 @@ author_profile: true
 classes: wide
 ---
 
-Here is a numebr of my selected publications. For the full list, please visit my [google scholar](https://scholar.google.com/citations?user=jKpl5lQAAAAJ&hl=en) page.
+Here are a number of my selected publications. For the full list, please visit my [google scholar](https://scholar.google.com/citations?user=jKpl5lQAAAAJ&hl=en) page.
 
 ---
 
@@ -39,12 +39,12 @@ Arsalan Ghorbanian, Soheil Zaghian, Reza M. Asiyabi, Meisam Amani, Ali Mohammadz
 [Article](https://www.mdpi.com/2072-4292/13/13/2565)
 
 
-**PolSAR Data Classification using Bag of Visual Words Algorithm**, *Journal of Geomatics Science and Technology , 2020 (in Persian)*  
+**PolSAR Data Classification using Bag of Visual Words Algorithm**, *Journal of Geomatics Science and Technology, 2020 (in Persian)*  
 Reza M. Asiyabi, Mahmood R. Sahebi
 [Article](http://jgst.issge.ir/article-1-780-en.htmlER)
 
 
-**Oil spill four-Class classification using UAVSAR polarimetric data**, *Ocean Science Journal , 2020*  
+**Oil spill four-Class classification using UAVSAR polarimetric data**, *Ocean Science Journal, 2020*  
 Behnam Hassani, Mahmood R. Sahebi, Reza M. Asiyabi
 [Article](https://link.springer.com/article/10.1007/s12601-020-0023-9)
 
