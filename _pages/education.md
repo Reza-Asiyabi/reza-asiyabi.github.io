@@ -23,7 +23,7 @@ classes: wide
 **Master of Science (MSc)** - 2016 to 2018  
 *K.N. Toosi University of Technology*, Tehran, Iran  
 •	Remote Sensing Research Center, Faculty of Geomatics – Remote Sensing Engineering  
-•	Thesis Title: Bag of Visual words Model enhancement for PolSAR Images Classification
+•	Thesis Title: Bag of Visual Words Model Enhancement for PolSAR Images Classification
 
 **Bachelor of Science (BSc)** - 2012 to 2016  
 *K.N. Toosi University of Technology*, Tehran, Iran  
