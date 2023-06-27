@@ -6,6 +6,12 @@ author_profile: true
 classes: wide
 ---
 
+<style>
+p {
+  text-align: justify;
+}
+</style>
+
 Here are a number of my selected publications. For the full list, please visit my [google scholar](https://scholar.google.com/citations?user=jKpl5lQAAAAJ&hl=en) page.
 
 ---
