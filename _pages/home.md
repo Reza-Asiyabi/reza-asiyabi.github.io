@@ -6,6 +6,12 @@ author_profile: true
 classes: wide
 ---
 
+<style>
+p {
+  text-align: justify;
+}
+</style>
+
 **Hi 👋, I'm Reza!** *Welcome to my world ;)* <span class="pull-right"> </span>\
 <span class="small-grey"><i class="fa-face-smile-wink" aria-hidden="true"></i>  Let's get to know eachother, shall we?</span> 
 
