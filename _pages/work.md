@@ -4,6 +4,14 @@ title: "Work Experience"
 permalink: /work/
 author_profile: true
 classes: wide
+
+<style>
+p {
+  text-align: justify;
+}
+</style>
+
+
 gallery1:
   - url: /images/Projects/TGRS Architecture.png
     image_path: /images/Projects/TGRS Architecture.png
@@ -44,12 +52,6 @@ gallery4:
     image_path: /images/Projects/Seg-BOVW Flowchart.png
     alt: "Seg-BOVW"
     title: "Seg-BOVW"
-
-<style>
-p {
-  text-align: justify;
-}
-</style>
 
 ---
 
