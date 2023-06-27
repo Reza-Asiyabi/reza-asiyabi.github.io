@@ -44,8 +44,13 @@ gallery4:
     image_path: /images/Projects/Seg-BOVW Flowchart.png
     alt: "Seg-BOVW"
     title: "Seg-BOVW"
-
 ---
+
+<style>
+p {
+  text-align: justify;
+}
+</style>
 
 **Assistant Researcher**, *Research Center for Spatial Information (CEOSpace Tech)* <span class="pull-right">2020 - 2023 (Expected) </span>  
 <span class="small-grey"><i class="fas fa-tools" aria-hidden="true"></i> Earth Observation, SAR, AI, Deep Learning, Machine Vision, Python</span>  
