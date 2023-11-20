@@ -26,6 +26,11 @@ Reza M. Asiyabi, Mihai Datcu
 [Article](https://ieeexplore.ieee.org/abstract/document/9735293)
 
 
+**Synthetic Aperture Radar (SAR) for Ocean: A Review**, *IEEE J-STARS - Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 2023*  
+Reza M. Asiyabi, Arsalan Ghorbanian, Shaahin Nazarpour Tameh, Meisam Amani, Shuanggen Jin, Ali Mohammadzadeh
+[Article](https://ieeexplore.ieee.org/abstract/document/10234538)
+
+
 **S1SLC_CVDL Dataset: A COMPLEX-VALUED ANNOTATED SINGLE LOOK COMPLEX SENTINEL-1 SAR DATASET FOR COMPLEX-VALUED DEEP NETWORKS Dataset**, *IEEE DataPort, 2023*  
 Reza M. Asiyabi, Mihai Datcu, Andrei Anghel and Holger Nies
 [Dataset](https://dx.doi.org/10.21227/nm4g-yd98)
@@ -56,6 +61,10 @@ Behnam Hassani, Mahmood R. Sahebi, Reza M. Asiyabi
 
 
 ***Selected Conference Papers***
+
+**Complex-Valued Autoencoder for Multi-Polarization SLC SAR Data Compression with Side Information**, *IGARSS - IEEE International Geoscience and Remote Sensing Symposium, 2023*  
+Reza M. Asiyabi, Andrei Anghel, Paola Rizzoli, Michele Martone, Mihai Datcu
+[Article](https://ieeexplore.ieee.org/abstract/document/10282287)
 
 **Complex-Valued Autoencoders with Coherence Preservation for SAR**, *EuSAR - European Conference on Synthetic Aperture Radar, 2022*  
 Reza M. Asiyabi, Mihai Datcu, Andrei Anghel and Holger Nies
