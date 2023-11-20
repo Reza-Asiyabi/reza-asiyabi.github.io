@@ -30,6 +30,9 @@ Please take a look at [some of my work](/work).
 ---
 
 ## News
+- [Dec 2023] Doctoral Thesis Defense, Deep Learning for SAR Data in Presence of Adversarial Samples, National University of Science and Technology POLITEHNICA Bucharest [PhD Defense](https://upb.ro/doctorat/teze-de-doctorat/)
+- [Sep 2023] International Conference on Content-based Multimedia Indexing (CBMI) 2023, Orleans, France [CBMI 2023](https://cbmi2023.org/)
+- [Jul 2023] IEEE International Geoscience and Remote Sensing Symposium (IGARSS) 2023, Pasadena, California, US [IGARSS 2023](https://2023.ieeeigarss.org/)
 - [May 2023] IEEE GRSS High-Performance and Disruptive Computing in Remote Sensing (HDCRS) summer school, Reykjavík, Iceland [HDCRS](https://www.hdc-rs.com/)
 - [Mar 2023] MenelaosNT Forum, Bucharest, Romania [Forum](https://andrei2407.github.io/menelaos_nt_forum_bucharest/)
 - [Jul 2022] European Conference on Synthetic Aperture Radar (EuSAR) 2022, Leipzig, Germany [EuSAR 2022](https://www.eusar.de/en)
