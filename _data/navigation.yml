@@ -2,6 +2,9 @@
 main:
   - title: "About"
     url: "/"
+
+  - title: "CV"
+    url: /files/Reza_CV.pdf
     
   - title: "Work"
     url: /work/
