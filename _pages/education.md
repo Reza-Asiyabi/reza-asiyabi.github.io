@@ -14,7 +14,7 @@ p {
 
 ---
 
-**Research Assistant and PhD student** - 2020 to 2023 (expected)  
+**Research Assistant and PhD student** - Dec 2020 to Dec 2023  
 *University POLITEHNICA of Bucharest (UPB)*, Bucharest, Romania  
 •	Research Assistant and PhD student, University POLITEHNICA of Bucharest (UPB), Research Center for Spatial Information (CEOSpaceTech), Bucharest, Romania.  
 •	Early Stage Researcher in the frame of EU Marie Skłodowska-Curie innovative training network project MENELAOS-NT in the field of “Deep learning for SAR data in presence of adversarial samples”
