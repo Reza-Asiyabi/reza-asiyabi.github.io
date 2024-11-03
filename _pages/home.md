@@ -15,21 +15,23 @@ p {
 **Hi 👋, I'm Reza!** *Welcome to my world ;)* <span class="pull-right"> </span>\
 <span class="small-grey"><i class="fa-face-smile-wink" aria-hidden="true"></i>  Let's get to know eachother, shall we?</span> 
 
-I am a researcher and a PhD student at the Research Center for Spatial Information (CEOSpaceTech) working on Artificial Intelligence and Deep Architectures for Earth Observation (more specifically, Synthetic Aperture Radar (SAR) data) applications. I specilized in remote sensing and Earth observation and the applications of Artificial Intelligence (AI), Deep Learning, and Machine Learning in this field. My primary area of research revolves around developing innovative methods for processing complex-valued SAR data for various applications, from SAR raw data compression, to land cover classification and semantic information discovery.
+I am a researcher at the University of Edinburgh working on Artificial Intelligence and Deep Learning Architectures for Earth Observation data (more specifically, Synthetic Aperture Radar (SAR) data) with a focus on Radar-vegetation interaction and Above Ground Biomass (AGB) applications. I specialise in remote sensing and Earth observation and the applications of Artificial Intelligence (AI), Deep Learning, and Machine Learning in this field. My primary area of research revolves around developing innovative methods for processing complex-valued SAR data for various applications, from SAR raw data compression, to land cover classification and from semantic information discovery to AGB estimation.
 
-Currently, I am working as an early-stage researcher in the European Training Network (ETN) H2020-MSCA-ITN [MENELAOS-NT](https://www.menelaos-nt.eu/) project. The project applies Novel Technologies to realize multimodal – multi sensor data fusion to optimally combine the information delivered by different sensors (in-situ/remote, optical/non optical) on different scales, with different resolutions and with different reliability.
+Currently, I am working as a PostDoctoral Research Associate (PDRA) at the University of Edinburgh, School of GeoSciences, with a grant received jointly from the UK National Center for Earth Observation (NCEO) and [SECO project](https://blogs.ed.ac.uk/seco-project/). My research in this position aims to develop machine (deep) learning algorithms to provide a better understanding of the Radar-vegetation interaction and how AGB affects the radar backscatter in SAR data.
 
-As a part of my work, I published several papers in top-tier conferences and journals in the field of remote sensing and Machine Learning. My research contributions have been widely recognized and have earned prestigious awards and accolades.
+As part of my work, I published several papers in top-tier conferences and journals in remote sensing and Machine Learning. My research contributions have been widely recognized and have earned prestigious awards and accolades.
 
-Prior to joining CEOSpaceTech, I completed my Bachelor’s degree in Geodesy and Geomatics Engineering at the K.N. Toosi University of Technology, Tehran, Iran. I then pursued my Master’s degree in Remote sensing engineering, where I focused on developing machine learning algorithms for SAR data.
+Prior to joining the University of Edinburgh, I completed my PhD at the University POLITEHNICA of Bucharest, Romania, with a Marie Curie fellowship in [MENELAOS-NT project](https://www.menelaos-nt.eu/). My PhD thesis was focued on developing complex-valued deep architectures for SAR data. After my PhD, I joined the Market Activity Intex (MAI) project at Satnford University in which we developed a novel method for detecting periodic local markets in low-income countries, using high-resolution earth observation data, and assessing their economic activity based on attendance.
 
-I enjoy communicating with the people from diverse backgrounds and working with multidisciplinary teams. I am an independent researcher and I value initiative, knowledge sharing, and good collaboration.
+I enjoy communicating with people from diverse backgrounds and working with multidisciplinary teams. I am an independent researcher and I value initiative, knowledge sharing, and good collaboration.
 
 Please take a look at [some of my work](/work).
 
 ---
 
 ## News
+- [Aug 2024] I joined the University of Edinburgh, School of GeoSciences as an NCEO/SECO postdoctoral research associate
+- [Jan 2024] I joined the Market Activity Index (MAI) project at Stanford University, [Center on Food Security and the Environment (FSI)](https://fse.fsi.stanford.edu/)
 - [Dec 2023] Doctoral Thesis Defense, Deep Learning for SAR Data in Presence of Adversarial Samples, National University of Science and Technology POLITEHNICA Bucharest [PhD Defense](https://upb.ro/doctorat/teze-de-doctorat/)
 - [Sep 2023] International Conference on Content-based Multimedia Indexing (CBMI) 2023, Orleans, France [CBMI 2023](https://cbmi2023.org/)
 - [Jul 2023] IEEE International Geoscience and Remote Sensing Symposium (IGARSS) 2023, Pasadena, California, US [IGARSS 2023](https://2023.ieeeigarss.org/)
