@@ -6,7 +6,7 @@ author_profile: true
 classes: wide
 
 header:
-  image: /images/Header.jpg
+  image: /images/Header_withName.jpg
 ---
 
 
