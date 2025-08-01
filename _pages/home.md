@@ -4,6 +4,12 @@ permalink: /
 excerpt: "About me"
 author_profile: true
 classes: wide
+
+header:
+  image: /images/Header.jpg
+---
+
+
 ---
 
 <style>
