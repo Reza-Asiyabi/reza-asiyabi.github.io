@@ -80,6 +80,10 @@ author:
   wikipedia        :
   kaggle           : 
 
+#Site Header
+header:
+  image: "/images/Header.jpg"
+
 # Site Footer
 footer:
   links:
@@ -205,8 +209,7 @@ analytics:
     tracking_id: "G-DGQ7BQQ1DV"
     anonymize_ip: false # default
 
-header:
-  image: /images/Header.jpg
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
