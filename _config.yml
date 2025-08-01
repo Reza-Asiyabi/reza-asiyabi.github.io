@@ -205,6 +205,9 @@ analytics:
     tracking_id: "G-DGQ7BQQ1DV"
     anonymize_ip: false # default
 
+header:
+  image: /assets/images/Header.jpg
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
