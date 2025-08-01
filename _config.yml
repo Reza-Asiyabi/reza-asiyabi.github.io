@@ -21,7 +21,7 @@
 title: Reza M. Asiyabi
 email: reza.asiyabi@ed.ac.uk
 description: >- # this means to ignore newlines until "baseurl:"
-  Reza M. Asiyabi - Postdoctoral Research Associate
+  Reza M. Asiyabi - AI/ML for Earth Observation Scientist
 domain: reza-asiyabi.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://reza-asiyabi.github.io" # the base hostname & protocol for your site, e.g. http://example.com
@@ -82,7 +82,7 @@ author:
 
 #Site Header
 header:
-  image: "/images/Header.jpg"
+  image: /images/Header.jpg
 
 # Site Footer
 footer:
