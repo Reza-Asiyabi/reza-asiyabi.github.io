@@ -206,7 +206,7 @@ analytics:
     anonymize_ip: false # default
 
 header:
-  image: /assets/images/Header.jpg
+  image: /images/Header.jpg
 
 # Exclude from processing.
 # The following items will not be processed, by default.
