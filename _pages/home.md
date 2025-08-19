@@ -19,19 +19,18 @@ p {
 </style>
 
 **Hi 👋, I'm Reza!** *Welcome to my world ;)* <span class="pull-right"> </span>\
-<span class="small-grey"><i class="fa-face-smile-wink" aria-hidden="true"></i>  Let's get to know eachother, shall we?</span> 
 
-I am a researcher at the University of Edinburgh working on Artificial Intelligence and Deep Learning Architectures for Earth Observation data (more specifically, Synthetic Aperture Radar (SAR) data) with a focus on Radar-vegetation interaction and Above Ground Biomass (AGB) applications. I specialise in remote sensing and Earth observation and the applications of Artificial Intelligence (AI), Deep Learning, and Machine Learning in this field. My primary area of research revolves around developing innovative methods for processing complex-valued SAR data for various applications, from SAR raw data compression, to land cover classification and from semantic information discovery to AGB estimation.
+I’m a researcher at the University of Edinburgh, working on Artificial Intelligence and Deep Learning for Earth Observation. My focus is on making AI systems more interpretable, robust, and domain-aware, with applications ranging from Geospatial LLMS to SAR data compression, land cover classification and above-ground biomass (AGB) estimation.
 
-Currently, I am working as a PostDoctoral Research Associate (PDRA) at the University of Edinburgh, School of GeoSciences, with a grant received jointly from the UK National Center for Earth Observation (NCEO) and [SECO project](https://blogs.ed.ac.uk/seco-project/). My research in this position aims to develop machine (deep) learning algorithms to provide a better understanding of the Radar-vegetation interaction and how AGB affects the radar backscatter in SAR data.
+Currently, I’m a Postdoctoral Research Associate in the School of GeoSciences, funded by the UK National Centre for Earth Observation (NCEO) and the [SECO project](https://blogs.ed.ac.uk/seco-project/). My research develops novel deep learning algorithms to better understand radar–vegetation interactions and how AGB influences SAR backscatter.
 
-As part of my work, I published several papers in top-tier conferences and journals in remote sensing and Machine Learning. My research contributions have been widely recognized and have earned prestigious awards and accolades.
+Along the way, I’ve published in top-tier journals and conferences in Remote Sensing and Machine Learning, receiving recognition through awards and fellowships.
 
-Prior to joining the University of Edinburgh, I completed my PhD at the University POLITEHNICA of Bucharest, Romania, with a Marie Curie fellowship in [MENELAOS-NT project](https://www.menelaos-nt.eu/). My PhD thesis was focued on developing complex-valued deep architectures for SAR data. After my PhD, I joined the Market Activity Intex (MAI) project at Satnford University in which we developed a novel method for detecting periodic local markets in low-income countries, using high-resolution earth observation data, and assessing their economic activity based on attendance.
+Before Edinburgh, I completed my Marie Curie–funded PhD at the University POLITEHNICA of Bucharest as part of the [MENELAOS-NT project](https://www.menelaos-nt.eu/), where I developed complex-valued deep architectures for SAR data. Afterwards, I worked at Stanford University on the Market Activity Index (MAI) project, designing a novel method to detect local markets in low-income countries using high-resolution EO data to assess economic activity from attendance patterns.
 
-I enjoy communicating with people from diverse backgrounds and working with multidisciplinary teams. I am an independent researcher and I value initiative, knowledge sharing, and good collaboration.
+I love working with multidisciplinary teams, learning from diverse perspectives, and building AI systems that bridge cutting-edge methods with real-world impact.
 
-Please take a look at [some of my work](/work).
+👉 Feel free to explore [some of my work](/work).
 
 ---
 
