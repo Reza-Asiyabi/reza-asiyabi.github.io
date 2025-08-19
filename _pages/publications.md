@@ -23,9 +23,10 @@ Reza M. Asiyabi, et al.
 **Generative AI for Earth Observation, a Prospect**,  
 Reza M. Asiyabi, et al.
 
-**Using satellite imagery to monitor remote rural economies at high frequency**,
+**Using satellite imagery to monitor remote rural economies at high frequency**,  
 Tillmann von Carnap, Reza M. Asiyabi, Paul Dingus, and Anna Tompsett
 [Article](https://arxiv.org/abs/2407.12953)
+
 ---
 
 ***Selected Datasets*** 
