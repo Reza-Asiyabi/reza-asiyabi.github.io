@@ -79,6 +79,18 @@
       float: right;
     }
   }
+   .masthead__inner-wrap nav a.active,
+   .masthead__inner-wrap nav .nav__item--active > a {
+     background: #00adb5;         // Or use a theme color variable
+     color: #fff !important;
+     border-radius: 4px;
+     padding: 0.25em 0.75em;
+     text-decoration: underline;   // Or use border-bottom for underline
+   }
+
+.masthead__inner-wrap nav a {
+  transition: background 0.2s, color 0.2s;
+}
 
   ul {
     margin: 0;
