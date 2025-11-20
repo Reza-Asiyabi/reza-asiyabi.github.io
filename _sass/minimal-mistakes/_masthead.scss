@@ -10,6 +10,7 @@
   -webkit-animation-delay: 0.15s;
   animation-delay: 0.15s;
   z-index: 20;
+  box-shadow: 0 4px 12px rgba(20, 20, 20, 0.06); // Subtle drop shadow
 
   &__inner-wrap {
     @include clearfix;
