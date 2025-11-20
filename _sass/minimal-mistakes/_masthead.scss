@@ -42,12 +42,12 @@
 }
 
 .site-logo img {
-  //  max-height: 3rem;      // Increase size (was 2rem)
-  // width: 3rem;           // Ensures round shape
-  // border-radius: 50%;    // Makes it circular
-  // object-fit: cover;     // Ensures the image fills the circle
-  // box-shadow: 0 2px 8px rgba(20,20,20,0.10); // Optional subtle shadow
-  max-height: 2rem;
+  max-height: 3rem;      // Increase size (was 2rem)
+  width: 3rem;           // Ensures round shape
+  border-radius: 50%;    // Makes it circular
+  object-fit: cover;     // Ensures the image fills the circle
+  box-shadow: 0 2px 8px rgba(20,20,20,0.10); // Optional subtle shadow
+  // max-height: 2rem;
 }
 
 .site-title {
