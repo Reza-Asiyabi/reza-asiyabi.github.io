@@ -10,8 +10,8 @@
   -webkit-animation-delay: 0.15s;
   animation-delay: 0.15s;
   z-index: 20;
-  box-shadow: 0 4px 12px rgba(20, 20, 20, 0.06); // Subtle drop shadow
-  background: linear-gradient(90deg, #252a34 60%, #00adb5 100%);
+  // box-shadow: 0 4px 12px rgba(20, 20, 20, 0.06); // Subtle drop shadow
+  // background: linear-gradient(90deg, #252a34 60%, #00adb5 100%);
 
   &__inner-wrap {
     @include clearfix;
@@ -42,12 +42,12 @@
 }
 
 .site-logo img {
-   max-height: 3rem;      // Increase size (was 2rem)
-  width: 3rem;           // Ensures round shape
-  border-radius: 50%;    // Makes it circular
-  object-fit: cover;     // Ensures the image fills the circle
-  box-shadow: 0 2px 8px rgba(20,20,20,0.10); // Optional subtle shadow
-  // max-height: 2rem;
+  //  max-height: 3rem;      // Increase size (was 2rem)
+  // width: 3rem;           // Ensures round shape
+  // border-radius: 50%;    // Makes it circular
+  // object-fit: cover;     // Ensures the image fills the circle
+  // box-shadow: 0 2px 8px rgba(20,20,20,0.10); // Optional subtle shadow
+  max-height: 2rem;
 }
 
 .site-title {
@@ -79,18 +79,18 @@
       float: right;
     }
   }
-   .masthead__inner-wrap nav a.active,
-   .masthead__inner-wrap nav .nav__item--active > a {
-     background: #00adb5;         // Or use a theme color variable
-     color: #fff !important;
-     border-radius: 4px;
-     padding: 0.25em 0.75em;
-     text-decoration: underline;   // Or use border-bottom for underline
-   }
+//    .masthead__inner-wrap nav a.active,
+//    .masthead__inner-wrap nav .nav__item--active > a {
+//      background: #00adb5;         // Or use a theme color variable
+//      color: #fff !important;
+//      border-radius: 4px;
+//      padding: 0.25em 0.75em;
+//      text-decoration: underline;   // Or use border-bottom for underline
+//    }
 
-.masthead__inner-wrap nav a {
-  transition: background 0.2s, color 0.2s;
-}
+// .masthead__inner-wrap nav a {
+//   transition: background 0.2s, color 0.2s;
+// }
 
   ul {
     margin: 0;
