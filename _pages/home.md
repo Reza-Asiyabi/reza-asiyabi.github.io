@@ -18,19 +18,22 @@ p {
 }
 </style>
 
-**Hi 👋, I'm Reza!** *Welcome to my world ;)* <span class="pull-right"> </span>\
+**Hi 👋, I'm Reza!** 
+*I build AI systems that try to understand the world rather than just fit the data.* <span class="pull-right"> </span>
 
-I’m a researcher at the University of Edinburgh, working on Artificial Intelligence and Deep Learning for Earth Observation. My focus is on making AI systems more interpretable, robust, and domain-aware, with applications ranging from Geospatial LLMS to SAR data compression, land cover classification and above-ground biomass (AGB) estimation.
+I’m a researcher at the University of Edinburgh working on interpretable, robust, and physics-aware AI. My focus is on designing machine-learning models that combine theory, data, and real-world constraints, an approach shaped by years of tackling the unique challenges of Earth Observation.
 
-Currently, I’m a Postdoctoral Research Associate in the School of GeoSciences, funded by the [UK National Centre for Earth Observation (NCEO)](https://www.nceo.ac.uk/) and the [SECO project](https://blogs.ed.ac.uk/seco-project/). My research develops interpretable and domain-aware AI models to better understand radar–vegetation interactions and how AGB influences SAR backscatter.
+A lot of my recent work has been in geospatial AI: from land-cover analysis to estimating biomass from radar, and from geospatial MLLMs complex-valued neural data compression. working with noisy, physics-coupled data forced me to build models that go beyond pattern-recognition and actually reason about the underlying system.
 
-Along the way, I’ve published in top-tier journals and conferences in Machine Learning and Remote Sensing, receiving recognition through awards and fellowships.
+I’m currently a Postdoctoral Research Associate in the School of GeoSciences, funded by the [UK National Centre for Earth Observation (NCEO)](https://www.nceo.ac.uk/) and [UKRI SECO project](https://blogs.ed.ac.uk/seco-project/). My research focuses on domain-aware deep learning to understand radar–vegetation interactions; Essentially teaching AI to interpret forests through the lens of backscatter physics.
 
-Before Edinburgh, I completed my Marie Curie–funded PhD at the University POLITEHNICA of Bucharest as part of the [MENELAOS-NT project](https://www.menelaos-nt.eu/), where I developed complex-valued deep architectures for SAR data. Afterwards, I worked at Stanford University on the Market Activity Index (MAI) project, designing a novel method to detect local markets in low-income countries using high-resolution EO data to assess economic activity from attendance patterns.
+I’ve published across leading ML/AI and EO venues, won competitive fellowships, and built methods that bridge theoretical depth with practical impact.
 
-I love working with multidisciplinary teams, learning from diverse perspectives, and building AI systems that bridge cutting-edge methods with real-world impact.
+Before Edinburgh, I completed a Marie Curie–funded PhD at the University POLITEHNICA of Bucharest as part of the [MENELAOS-NT project](https://www.menelaos-nt.eu/), developing complex-valued neural networks for SAR. I then joined Stanford University to work on the ]Market Activity Index (MAI)](https://market-activity.net/), creating an remote sensing approach to detect local markets in low-income countries through high-resolution EO data.
 
-👉 Feel free to explore [some of my work](/work).
+I enjoy building systems that turn messy, real-world data into meaningful insight, whether in geospatial applications or broader AI problems, and I thrive in teams where different disciplines push each other forward.
+
+👉 Explore [my work](/work).
 
 ---
 
