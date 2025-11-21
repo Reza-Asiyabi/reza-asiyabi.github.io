@@ -17,10 +17,10 @@ Here are a number of my selected publications. For the full list, please visit m
 
 ***Selected Working Papers*** 
 
-**Towards Scientific AI: Domain-Aware Deep Learning with Interpretable Intermediate Features for Biomass Mapping from Earth Observation Data**,  
+**Process-Guided Concept Bottleneck Models (PG-CBM)**,  
 Reza M. Asiyabi, et al.
 
-**Generative AI for Earth Observation, a Prospect**,  
+**Process-Guided Concept Bottleneck Models for Abive Ground Biomass Mapping from Earth Observation Data**,  
 Reza M. Asiyabi, et al.
 
 **Using satellite imagery to monitor remote rural economies at high frequency**,  
@@ -78,6 +78,10 @@ Behnam Hassani, Mahmood R. Sahebi, and Reza M. Asiyabi
 ---
 
 ***Selected Conference Papers***
+
+**Generative AI for Earth Observation, a Prospect**,  *MIGARS - International Conference on Machine Intelligence for GeoAnalytics and Remote Sensing, 2025*  
+Reza M. Asiyabi, Omid Ghozatlou, Saqib Nazir, Mobina Keymasi, Muhammad Amjad Iqbal, Mihai Datcu
+[Article](https://ieeexplore.ieee.org/document/11232241)
 
 **Joint Underwater Depth Estimation and Dehazing from a Single Image Using Attention U-Net**, *DASIP - International Workshop on Design and Architectures for Signal and Image Processing, 2025*  
 Saqib Nazir, Reza M. Asiyabi, and Olivier Lezoray
