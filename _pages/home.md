@@ -18,8 +18,10 @@ p {
 }
 </style>
 
-**Hi 👋, I'm Reza!** 
-*I build AI systems that try to understand the world rather than just fit the data.* <span class="pull-right"> </span>
+**Hi 👋, I'm Reza!**  
+<span style="display:block; margin-top:-0.35rem; font-style:italic;">
+I build AI systems that try to understand the world rather than just fit the data.
+</span>
 
 I’m a researcher at the University of Edinburgh working on interpretable, robust, and physics-aware AI. My focus is on designing machine-learning models that combine theory, data, and real-world constraints, an approach shaped by years of tackling the unique challenges of Earth Observation.
 
