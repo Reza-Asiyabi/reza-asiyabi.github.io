@@ -31,7 +31,7 @@ I’m currently a Postdoctoral Research Associate in the School of GeoSciences, 
 
 I’ve published across leading ML/AI and EO venues, won competitive fellowships, and built methods that bridge theoretical depth with practical impact.
 
-Before Edinburgh, I completed a Marie Curie–funded PhD at the University POLITEHNICA of Bucharest as part of the [MENELAOS-NT project](https://www.menelaos-nt.eu/), developing complex-valued neural networks for SAR. I then joined Stanford University to work on the [Market Activity Index (MAI)](https://market-activity.net/), creating an remote sensing approach to detect local markets in low-income countries through high-resolution EO data.
+Before Edinburgh, I completed a Marie Curie–funded PhD at the University POLITEHNICA of Bucharest as part of the [MENELAOS-NT project](https://www.menelaos-nt.eu/), developing complex-valued neural networks for SAR. I then joined Stanford University to work on the [Market Activity Index (MAI)](https://market-activity.net/), creating a remote sensing approach to detect local markets in low-income countries through high-resolution EO data.
 
 I enjoy building systems that turn messy, real-world data into meaningful insight, whether in geospatial applications or broader AI problems, and I thrive in teams where different disciplines push each other forward.
 
