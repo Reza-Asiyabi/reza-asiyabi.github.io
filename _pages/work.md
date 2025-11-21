@@ -77,7 +77,7 @@ Postdoctoral researcher at the University of Edinburgh, funded by the [UK Nation
 Postdoctoral researcher at the Stanford University, [Center for Food Security and the Environment (FSE)](https://fse.fsi.stanford.edu/), work on the [Market Activity Index (MAI) project](https://market-activity.net/) to create a remote sensing approach to detect local markets in low-income countries through high-resolution EO data. 
 
 <i class="fas fa-plus small-grey"></i> Developing change detection and object detection remote sensing approaches.  
-<i class="fas fa-plus small-grey"></i> Proccessing high-resolution EO data.  
+<i class="fas fa-plus small-grey"></i> Processing high-resolution EO data.  
 
 <span class="small-grey"><i class="fab fa-fw fa-github" aria-hidden="true"></i>[Source code](https://github.com/Reza-Asiyabi/MAI)</span>
 {% include gallery id="galleryMAI" caption="" %}
@@ -111,7 +111,7 @@ Key personnel and AI researcher at the Artificial Intelligence for SAR Data Comp
 Research secondment at the University of Siegen, [Zentrum für Sensorsysteme (ZESS)](https://www.uni-siegen.de/zess/index.html?lang=de), Germany, in the frame of the [MENELAOS-NT](https://www.menelaos-nt.eu/) European Training Network (ETN) H2020-MSCA-ITN project. The main focus of the secondment was on the development of complex-valued deep architectures for SAR data classification and comparison between complex- and real-valued architectures.
 
 <i class="fas fa-plus small-grey"></i> Development of complex-valued deep architectures.   
-<i class="fas fa-plus small-grey"></i> compartive study between complex- and real-valued deep architectures for SAR data classification.  
+<i class="fas fa-plus small-grey"></i> Comparative study between complex- and real-valued deep architectures for SAR data classification.  
 <i class="fas fa-plus small-grey"></i> Presentation of the results in various conferences and forums, including IGARSS 2022, EuSAR 2022, and MENELAOS Forum 2022.
 
 <span class="small-grey"><i class="fab fa-fw fa-github" aria-hidden="true"></i>[Source code](https://github.com/Reza-Asiyabi/Complex-Valued-End-to-End-Deep-Network-for-SAR)</span>
