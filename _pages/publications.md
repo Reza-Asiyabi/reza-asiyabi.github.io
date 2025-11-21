@@ -20,7 +20,7 @@ Here are a number of my selected publications. For the full list, please visit m
 **Process-Guided Concept Bottleneck Models (PG-CBM)**,  
 Reza M. Asiyabi, et al.
 
-**Process-Guided Concept Bottleneck Models for Abive Ground Biomass Mapping from Earth Observation Data**,  
+**Process-Guided Concept Bottleneck Models for Above Ground Biomass Mapping from Earth Observation Data**,  
 Reza M. Asiyabi, et al.
 
 **Using satellite imagery to monitor remote rural economies at high frequency**,  
@@ -31,15 +31,15 @@ Tillmann von Carnap, Reza M. Asiyabi, Paul Dingus, and Anna Tompsett
 
 ***Selected Datasets*** 
 
-**S1SLC_CVDL: A Complex-Valued Annotated Single Look Complex Sentinel-1 SAR dataset forComplex-Valued Deep Networks**, *IEEE DataPort, April 8, 2023* 
-RReza M. Asiyabi, Mihai Datcu, Andrei Anghel and Holger Nies
+**S1SLC_CVDL: A Complex-Valued Annotated Single Look Complex Sentinel-1 SAR dataset for Complex-Valued Deep Networks**, *IEEE DataPort, April 8, 2023* 
+Reza M. Asiyabi, Mihai Datcu, Andrei Anghel and Holger Nies
 [Dataset](https://dx.doi.org/10.21227/nm4g-yd98)
 
 ---
 
 ***Selected Journal Papers*** 
 
-**Complex-Valued Autoencoder-Based Neural Data Compression for SAR Raw Data**, *IEEE J-STSP - Journal ofSelected Topics in Signal Processing, 2025*  
+**Complex-Valued Autoencoder-Based Neural Data Compression for SAR Raw Data**, *IEEE J-STSP - Journal of Selected Topics in Signal Processing, 2025*  
 Reza M. Asiyabi, Mihai Datcu, Andrei Anghel, Adrian Focsa, Michele Martone, Paola Rizzoli, and Ernesto Imbembo
 [Article](https://ieeexplore.ieee.org/abstract/document/10955162)
 
