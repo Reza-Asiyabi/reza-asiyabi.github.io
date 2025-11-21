@@ -45,16 +45,16 @@ I enjoy building systems that turn messy, real-world data into meaningful insigh
 - [Sep 2024] I will be attending the [UK National Earth Observation Conference 2024](https://ukeo.org/).
 - [Aug 2024] I joined the UK National Centre for Earth Observation (NCEO) and the University of Edinburgh as a postdoctoral research associate.
 - [Jan 2024] I joined the Market Activity Index (MAI) project at Stanford University, [Center on Food Security and the Environment (FSI)](https://fse.fsi.stanford.edu/).
-- [Dec 2023] Doctoral Thesis Defense, Deep Learning for SAR Data in Presence of Adversarial Samples, National University of Science and Technology POLITEHNICA Bucharest [PhD Defense](https://upb.ro/doctorat/teze-de-doctorat/).
+- [Dec 2023] Doctoral Thesis Viva, Deep Learning for SAR Data in Presence of Adversarial Samples, National University of Science and Technology POLITEHNICA Bucharest [PhD Viva](https://upb.ro/doctorat/teze-de-doctorat/).
 - [Sep 2023] International Conference on Content-based Multimedia Indexing (CBMI) 2023, Orleans, France [CBMI 2023](https://cbmi2023.org/).
 - [Jul 2023] IEEE International Geoscience and Remote Sensing Symposium (IGARSS) 2023, Pasadena, California, US [IGARSS 2023](https://2023.ieeeigarss.org/).
 - [May 2023] IEEE GRSS High-Performance and Disruptive Computing in Remote Sensing (HDCRS) summer school, Reykjavík, Iceland [HDCRS](https://www.hdc-rs.com/).
 - [Mar 2023] MenelaosNT Forum, Bucharest, Romania [Forum](https://andrei2407.github.io/menelaos_nt_forum_bucharest/).
 - [Jul 2022] European Conference on Synthetic Aperture Radar (EuSAR) 2022, Leipzig, Germany [EuSAR 2022](https://www.eusar.de/en).
 - [Jul 2022] IEEE International Geoscience and Remote Sensing Symposium (IGARSS) 2022, Kuala Lumpur, Malaysia [IGARSS 2022](https://www.igarss2022.org/).
-- [Jun 2022] Visiting Reseracher @ Zentrum für Sensorsysteme (ZESS), University of Siegen, Germany [ZESS](https://www.uni-siegen.de/zess/).
+- [Jun 2022] Visiting Researcher @ Zentrum für Sensorsysteme (ZESS), University of Siegen, Germany [ZESS](https://www.uni-siegen.de/zess/).
 - [Feb 2022] PhD Forum Sensing Anywhere Innovation, University of Siegen, Germany [Forum](http://phdforum.zess.uni-siegen.de/).
-- [Oct 2021] Visiting Reseracher @ Zentrum für Sensorsysteme (ZESS), University of Siegen, Germany [ZESS](https://www.uni-siegen.de/zess/).
+- [Oct 2021] Visiting Researcher @ Zentrum für Sensorsysteme (ZESS), University of Siegen, Germany [ZESS](https://www.uni-siegen.de/zess/).
 
 
 Contact me with any questions (email on the left).
