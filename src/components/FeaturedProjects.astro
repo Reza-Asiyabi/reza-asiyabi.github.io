@@ -3,26 +3,15 @@ const projects = [
   {
     title: 'Process-Guided Concept Bottleneck Models (PG-CBM)',
     description:
-      'Physics-aware interpretable AI that combines domain knowledge with deep learning for biomass estimation from SAR data. Models reason about underlying ecological mechanisms, not just statistical patterns.',
+      'Physics-aware interpretable AI that combines domain knowledge with deep learning for biomass estimation from EO data. Models reason about underlying ecological mechanisms, not just statistical patterns.',
     image: '/images/Projects/PG-CBM.webp',
     tags: ['Physics-aware DL', 'XAI', 'SAR', 'Biomass', 'PyTorch'],
     links: [
-      { label: 'Code', href: 'https://github.com/Reza-Asiyabi/UoE_Biomass' },
+      { Paper: 'Code', href: 'https://arxiv.org/abs/2601.10562' },
+      { label: 'Code', href: 'https://github.com/Reza-Asiyabi/PG_CBM' },
       { label: 'NCEO', href: 'https://www.nceo.ac.uk/' },
     ],
     status: 'Active',
-  },
-  {
-    title: 'Complex-Valued Neural Data Compression for SAR',
-    description:
-      'End-to-end complex-valued autoencoder architecture for compressing SAR raw data, preserving the phase coherency critical for interferometric and polarimetric applications. Published in IEEE J-STSP 2025.',
-    image: '/images/Projects/CV_Compression.webp',
-    tags: ['Neural Compression', 'Complex NNs', 'SAR', 'ESA', 'PyTorch'],
-    links: [
-      { label: 'IEEE Paper', href: 'https://ieeexplore.ieee.org/abstract/document/10955162' },
-      { label: 'Code', href: 'https://github.com/Reza-Asiyabi/Complex-Valued-End-to-End-Deep-Network-for-SAR' },
-    ],
-    status: 'Published',
   },
   {
     title: 'Market Activity Index (MAI)',
@@ -32,8 +21,42 @@ const projects = [
     tags: ['Remote Sensing', 'Change Detection', 'GEE', 'Stanford', 'Python'],
     links: [
       { label: 'Project', href: 'https://market-activity.net/' },
-      { label: 'Preprint', href: 'https://arxiv.org/abs/2407.12953' },
+      { label: 'Paper', href: 'https://arxiv.org/abs/2407.12953' },
       { label: 'Code', href: 'https://github.com/Reza-Asiyabi/MAI' },
+    ],
+    status: 'Published',
+  },
+  {
+    title: 'cvnnTorch: Complex-Valued Neural Network',
+    description:
+      'A Python package for implementing complex-valued neural networks based on PyTorch. Published in IEEE TGRS 2023.',
+    tags: ['complex-valued Neural Network', 'SAR', 'PyTorch'],
+    links: [
+      { label: 'Paper', href: 'https://ieeexplore.ieee.org/abstract/document/10102460/' },
+      { label: 'Code', href: 'https://github.com/Reza-Asiyabi/cvnnTorch' }
+    ],
+    status: 'Published',
+  },
+  {
+    title: 'ARTISTE: Complex-Valued Neural Data Compression for SAR data',
+    description:
+      'End-to-end complex-valued autoencoder architecture for compressing SAR raw data, preserving the phase coherency critical for interferometric and polarimetric applications. Published in IEEE J-STSP 2025.',
+    image: '/images/Projects/CV_Compression.webp',
+    tags: ['Neural Compression', 'Complex NNs', 'SAR', 'ESA', 'PyTorch'],
+    links: [
+      { label: 'Paper', href: 'https://ieeexplore.ieee.org/abstract/document/10955162' }
+    ],
+    status: 'Published',
+  },
+  {
+    title: 'Segment-based Bag of Visual Words (Seg-BOVW)',
+    description:
+      'Segment-based bag of visual words (Seg-BOVW) model was developed for urban land cover classification using PolSAR data.',
+    image: '/images/Projects/Seg-BOVW Flowchart.webp',
+    tags: ['Remote Sensing', 'Change Detection', 'GEE', 'Stanford', 'Python'],
+    links: [
+      { label: 'Paper', href: 'https://www.sciencedirect.com/science/article/abs/pii/S0273117721008024' },
+      { label: 'Code', href: 'https://github.com/Reza-Asiyabi/Seg-BOVW' },
     ],
     status: 'Published',
   },
