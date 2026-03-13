@@ -1,0 +1,211 @@
+---
+const experiences = [
+  {
+    role: 'Postdoctoral Research Associate',
+    org: 'University of Edinburgh / UK National Centre for Earth Observation (NCEO)',
+    period: 'Aug 2024 — Present',
+    location: 'Edinburgh, UK',
+    description:
+      'Developing physics-aware and interpretable AI models for biomass estimation from Earth Observation data, focusing on the relationship between radar backscatter and vegetation structure.',
+    highlights: [
+      'Developing Process-Guided Concept Bottleneck Models (PG-CBMs) for biomass estimation.',
+      'Teaching AI models to reason about underlying causal mechanisms rather than statistical mappings.',
+      'Building domain-aware deep learning pipelines for radar–vegetation interaction analysis.',
+    ],
+    tags: ['Physics-aware DL', 'XAI', 'SAR', 'Biomass Estimation', 'Python', 'PyTorch'],
+    links: [
+      { label: 'NCEO', href: 'https://www.nceo.ac.uk/' },
+      { label: 'SECO Project', href: 'https://blogs.ed.ac.uk/seco-project/' },
+      { label: 'Code', href: 'https://github.com/Reza-Asiyabi/UoE_Biomass' },
+    ],
+    current: true,
+  },
+  {
+    role: 'Postdoctoral Research Assistant',
+    org: 'Stanford University / Stockholm School of Economics (Remote)',
+    period: 'Jan 2024 — Aug 2024',
+    location: 'Remote (Stanford, CA)',
+    description:
+      'Contributed to the Market Activity Index (MAI) project at the Center for Food Security and the Environment, building remote sensing approaches to detect local markets in low-income countries.',
+    highlights: [
+      'Developed change detection and object detection pipelines for high-resolution EO data.',
+      'Processed and analyzed commercial satellite imagery to monitor informal economic activity.',
+    ],
+    tags: ['Remote Sensing', 'Object Detection', 'Change Detection', 'Google Earth Engine', 'Python'],
+    links: [
+      { label: 'MAI Project', href: 'https://market-activity.net/' },
+      { label: 'Code', href: 'https://github.com/Reza-Asiyabi/MAI' },
+    ],
+    current: false,
+  },
+  {
+    role: 'AI Researcher',
+    org: 'CEOSpaceTech — ARTISTE Project (ESA)',
+    period: '2022 — 2023',
+    location: 'Bucharest, Romania',
+    description:
+      'Key personnel on the ESA-funded ARTISTE project, developing AI-based solutions for SAR raw data compression for future ESA satellite missions in collaboration with DLR and Airbus.',
+    highlights: [
+      'Developed complex-valued neural data compression methods for SAR raw data.',
+      'Co-authored the project proposal and contributed to ESA deliverables.',
+    ],
+    tags: ['Neural Data Compression', 'Complex-valued NNs', 'SAR', 'ESA', 'Python'],
+    links: [],
+    current: false,
+  },
+  {
+    role: 'PhD Researcher (Marie Curie Fellow)',
+    org: 'University POLITEHNICA of Bucharest / CEOSpaceTech — MENELAOS-NT',
+    period: 'Dec 2020 — Dec 2023',
+    location: 'Bucharest, Romania',
+    description:
+      'Early Stage Researcher in the EU H2020 Marie Skłodowska-Curie Innovative Training Network, developing deep learning solutions for SAR data including the first public complex-valued SAR dataset.',
+    highlights: [
+      'Developed complex-valued end-to-end deep architectures for SAR classification and reconstruction.',
+      'Created the S1SLC-CVDL dataset — the first public complex-valued annotated SAR dataset.',
+      'Published in IEEE TGRS, J-STARS, J-STSP and presented at IGARSS, EuSAR, CBMI.',
+    ],
+    tags: ['Deep Learning', 'SAR', 'Complex-valued NNs', 'Dataset Creation', 'Python'],
+    links: [
+      { label: 'MENELAOS-NT', href: 'https://www.menelaos-nt.eu/' },
+      { label: 'S1SLC-CVDL Dataset', href: 'https://dx.doi.org/10.21227/nm4g-yd98' },
+      { label: 'Code', href: 'https://github.com/Reza-Asiyabi/Complex-Valued-End-to-End-Deep-Network-for-SAR' },
+    ],
+    current: false,
+  },
+  {
+    role: 'Visiting Researcher',
+    org: 'Zentrum für Sensorsysteme (ZESS), University of Siegen',
+    period: 'Oct 2021 — Oct 2022',
+    location: 'Siegen, Germany',
+    description:
+      'Research secondment under MENELAOS-NT, focusing on complex- vs. real-valued architecture comparisons for SAR data classification and presenting results at international venues.',
+    highlights: [
+      'Comparative study of complex- and real-valued deep architectures for SAR classification.',
+      'Presented results at IGARSS 2022, EuSAR 2022, and MENELAOS Forum 2022.',
+    ],
+    tags: ['Computer Vision', 'SAR', 'Complex-valued NNs', 'Research'],
+    links: [
+      { label: 'ZESS', href: 'https://www.uni-siegen.de/zess/' },
+      { label: 'Code', href: 'https://github.com/Reza-Asiyabi/Complex-Valued-End-to-End-Deep-Network-for-SAR' },
+    ],
+    current: false,
+  },
+  {
+    role: 'Researcher',
+    org: 'Remote Sensing Lab, K.N. Toosi University of Technology',
+    period: '2016 — 2018',
+    location: 'Tehran, Iran',
+    description:
+      'MSc research developing machine learning algorithms for PolSAR data classification, resulting in the Segment-based Bag of Visual Words (Seg-BOVW) method.',
+    highlights: [
+      'Developed the Seg-BOVW method for enhanced PolSAR land cover classification.',
+      'Published results in Advances in Space Research.',
+    ],
+    tags: ['Machine Learning', 'PolSAR', 'Computer Vision', 'Python', 'MATLAB'],
+    links: [
+      { label: 'Code', href: 'https://github.com/Reza-Asiyabi/Seg-BOVW' },
+    ],
+    current: false,
+  },
+];
+---
+
+<section id="experience" class="py-24 sm:py-32">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <!-- Section header -->
+    <div class="text-center mb-16 fade-up">
+      <p class="text-accent text-xs font-semibold tracking-[0.2em] uppercase mb-3">
+        Where I've Worked
+      </p>
+      <h2 class="text-3xl sm:text-4xl font-bold text-foreground">Experience</h2>
+    </div>
+
+    <!-- Timeline -->
+    <div class="relative">
+      <!-- Vertical line -->
+      <div
+        class="hidden sm:block absolute left-[7px] top-2 bottom-2 w-px bg-gradient-to-b from-accent via-stroke to-transparent"
+      >
+      </div>
+
+      <div class="space-y-10">
+        {
+          experiences.map((exp, i) => (
+            <div
+              class="fade-up relative sm:pl-10"
+              style={`transition-delay: ${i * 60}ms`}
+            >
+              <!-- Timeline dot -->
+              <div
+                class={`hidden sm:flex absolute left-0 top-1.5 w-3.5 h-3.5 rounded-full border-2 items-center justify-center ${
+                  exp.current
+                    ? 'bg-accent border-accent shadow-lg shadow-accent/40'
+                    : 'bg-background border-stroke'
+                }`}
+              />
+
+              <!-- Card -->
+              <div class="bg-surface border border-stroke rounded-2xl p-6 hover:border-accent/40 transition-all duration-300 hover:shadow-lg hover:shadow-accent/5">
+                <!-- Header -->
+                <div class="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2 mb-3">
+                  <div>
+                    <h3 class="text-base font-semibold text-foreground">
+                      {exp.role}
+                      {exp.current && (
+                        <span class="ml-2 text-xs px-2 py-0.5 rounded-full bg-accent/15 text-accent-light border border-accent/30">
+                          Current
+                        </span>
+                      )}
+                    </h3>
+                    <p class="text-sm text-accent-light mt-0.5">{exp.org}</p>
+                  </div>
+                  <div class="text-right shrink-0">
+                    <div class="text-xs text-muted font-medium">{exp.period}</div>
+                    <div class="text-xs text-faint mt-0.5">{exp.location}</div>
+                  </div>
+                </div>
+
+                <p class="text-sm text-muted leading-relaxed mb-4">{exp.description}</p>
+
+                <ul class="space-y-1.5 mb-4">
+                  {exp.highlights.map((h) => (
+                    <li class="flex items-start gap-2 text-sm text-muted">
+                      <span class="text-accent mt-1 shrink-0">▸</span>
+                      {h}
+                    </li>
+                  ))}
+                </ul>
+
+                <!-- Tags -->
+                <div class="flex flex-wrap gap-1.5 mb-4">
+                  {exp.tags.map((tag) => (
+                    <span class="text-xs px-2.5 py-1 rounded-full bg-background border border-stroke text-faint">
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+
+                <!-- Links -->
+                {exp.links.length > 0 && (
+                  <div class="flex flex-wrap gap-3 pt-3 border-t border-stroke">
+                    {exp.links.map((link) => (
+                      <a
+                        href={link.href}
+                        target="_blank"
+                        rel="noopener"
+                        class="text-xs text-accent hover:text-accent-light transition-colors flex items-center gap-1"
+                      >
+                        {link.label} ↗
+                      </a>
+                    ))}
+                  </div>
+                )}
+              </div>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,291 @@
+---
+const publications = [
+  // Working Papers
+  {
+    type: 'preprint',
+    title: 'Process-Guided Concept Bottleneck Models (PG-CBM)',
+    authors: 'Reza M. Asiyabi, et al.',
+    venue: 'Working Paper',
+    year: '2025',
+    links: [],
+  },
+  {
+    type: 'preprint',
+    title: 'Process-Guided Concept Bottleneck Models for Above Ground Biomass Mapping from Earth Observation Data',
+    authors: 'Reza M. Asiyabi, et al.',
+    venue: 'Working Paper',
+    year: '2025',
+    links: [],
+  },
+  {
+    type: 'preprint',
+    title: 'Using Satellite Imagery to Monitor Remote Rural Economies at High Frequency',
+    authors: 'Tillmann von Carnap, Reza M. Asiyabi, Paul Dingus, and Anna Tompsett',
+    venue: 'Preprint (arXiv)',
+    year: '2024',
+    links: [{ label: 'arXiv', href: 'https://arxiv.org/abs/2407.12953' }],
+  },
+  // Journals
+  {
+    type: 'journal',
+    title: 'Complex-Valued Autoencoder-Based Neural Data Compression for SAR Raw Data',
+    authors: 'Reza M. Asiyabi, Mihai Datcu, Andrei Anghel, Adrian Focsa, Michele Martone, Paola Rizzoli, and Ernesto Imbembo',
+    venue: 'IEEE J-STSP — Journal of Selected Topics in Signal Processing',
+    year: '2025',
+    links: [{ label: 'IEEE', href: 'https://ieeexplore.ieee.org/abstract/document/10955162' }],
+    featured: true,
+  },
+  {
+    type: 'journal',
+    title: 'Complex-Valued End-to-End Deep Network with Coherency Preservation for Complex-Valued SAR Data Reconstruction and Classification',
+    authors: 'Reza M. Asiyabi, Mihai Datcu, Andrei Anghel, and Holger Nies',
+    venue: 'IEEE TGRS — Transactions on Geoscience and Remote Sensing',
+    year: '2023',
+    links: [{ label: 'IEEE', href: 'https://ieeexplore.ieee.org/abstract/document/10102460' }],
+    featured: true,
+  },
+  {
+    type: 'journal',
+    title: 'Synthetic Aperture Radar (SAR) for Ocean: A Review',
+    authors: 'Reza M. Asiyabi, Arsalan Ghorbanian, et al.',
+    venue: 'IEEE J-STARS — Journal of Selected Topics in Applied Earth Observations and Remote Sensing',
+    year: '2023',
+    links: [{ label: 'IEEE', href: 'https://ieeexplore.ieee.org/abstract/document/10234538' }],
+  },
+  {
+    type: 'journal',
+    title: 'Earth Observation Semantic Data Mining: Latent Dirichlet Allocation-Based Approach',
+    authors: 'Reza M. Asiyabi and Mihai Datcu',
+    venue: 'IEEE J-STARS — Journal of Selected Topics in Applied Earth Observations and Remote Sensing',
+    year: '2022',
+    links: [{ label: 'IEEE', href: 'https://ieeexplore.ieee.org/abstract/document/9735293' }],
+  },
+  {
+    type: 'journal',
+    title: 'Segment-Based Bag of Visual Words Model for Urban Land Cover Mapping Using Polarimetric SAR Data',
+    authors: 'Reza M. Asiyabi, Mahmood R. Sahebi, and Arsalan Ghorbanian',
+    venue: 'Advances in Space Research',
+    year: '2022',
+    links: [{ label: 'ScienceDirect', href: 'https://www.sciencedirect.com/science/article/abs/pii/S0273117721008024' }],
+  },
+  {
+    type: 'journal',
+    title: 'Ocean Remote Sensing Techniques and Applications: A Review (Part I and II)',
+    authors: 'Meisam Amani, Soroosh Mehravar, Reza M. Asiyabi, et al.',
+    venue: 'Water (MDPI)',
+    year: '2022',
+    links: [{ label: 'MDPI', href: 'https://www.mdpi.com/2073-4441/14/21/3401' }],
+  },
+  {
+    type: 'journal',
+    title: 'Mangrove Ecosystem Mapping Using Sentinel-1 and Sentinel-2 and Random Forest in Google Earth Engine',
+    authors: 'Arsalan Ghorbanian, Soheil Zaghian, Reza M. Asiyabi, et al.',
+    venue: 'MDPI Remote Sensing',
+    year: '2021',
+    links: [{ label: 'MDPI', href: 'https://www.mdpi.com/2072-4292/13/13/2565' }],
+  },
+  // Conferences
+  {
+    type: 'conference',
+    title: 'Generative AI for Earth Observation, a Prospect',
+    authors: 'Reza M. Asiyabi, Omid Ghozatlou, Saqib Nazir, Mobina Keymasi, Muhammad Amjad Iqbal, Mihai Datcu',
+    venue: 'MIGARS — International Conference on Machine Intelligence for GeoAnalytics and Remote Sensing',
+    year: '2025',
+    links: [{ label: 'IEEE', href: 'https://ieeexplore.ieee.org/document/11232241' }],
+  },
+  {
+    type: 'conference',
+    title: 'Joint Underwater Depth Estimation and Dehazing from a Single Image Using Attention U-Net',
+    authors: 'Saqib Nazir, Reza M. Asiyabi, and Olivier Lezoray',
+    venue: 'DASIP — International Workshop on Design and Architectures for Signal and Image Processing',
+    year: '2025',
+    links: [{ label: 'Springer', href: 'https://link.springer.com/chapter/10.1007/978-3-031-87897-8_6' }],
+  },
+  {
+    type: 'conference',
+    title: 'On the Use of JPEG2000 for SAR Raw Data Compression',
+    authors: 'Reza M. Asiyabi, Andrei Anghel, Adrian Focsa, Mihai Datcu, Michele Martone, Paola Rizzoli, and Ernesto Imbembo',
+    venue: 'EUSAR — European Conference on Synthetic Aperture Radar',
+    year: '2024',
+    links: [{ label: 'IEEE', href: 'https://ieeexplore.ieee.org/abstract/document/10659610' }],
+  },
+  {
+    type: 'conference',
+    title: 'Complex-Valued Autoencoder for Multi-Polarization SLC SAR Data Compression with Side Information',
+    authors: 'Reza M. Asiyabi, Andrei Anghel, Paola Rizzoli, Michele Martone, and Mihai Datcu',
+    venue: 'IGARSS — IEEE International Geoscience and Remote Sensing Symposium',
+    year: '2023',
+    links: [{ label: 'IEEE', href: 'https://ieeexplore.ieee.org/abstract/document/10282287' }],
+  },
+  {
+    type: 'conference',
+    title: 'Complex-Valued Autoencoders with Coherence Preservation for SAR',
+    authors: 'Reza M. Asiyabi, Mihai Datcu, Andrei Anghel, and Holger Nies',
+    venue: 'EuSAR — European Conference on Synthetic Aperture Radar',
+    year: '2022',
+    links: [{ label: 'IEEE', href: 'https://ieeexplore.ieee.org/abstract/document/9944319' }],
+  },
+  {
+    type: 'conference',
+    title: 'Complex-Valued Vs. Real-Valued Convolutional Neural Network for PolSAR Data Classification',
+    authors: 'Reza M. Asiyabi, Mihai Datcu, Holger Nies, and Andrei Anghel',
+    venue: 'IGARSS — IEEE International Geoscience and Remote Sensing Symposium',
+    year: '2022',
+    links: [{ label: 'IEEE', href: 'https://ieeexplore.ieee.org/abstract/document/9884081' }],
+  },
+  {
+    type: 'conference',
+    title: 'Earth Observation Image Semantics: Latent Dirichlet Allocation Based Information Discovery',
+    authors: 'Reza M. Asiyabi and Mihai Datcu',
+    venue: 'IGARSS — IEEE International Geoscience and Remote Sensing Symposium',
+    year: '2021',
+    links: [{ label: 'IEEE', href: 'https://ieeexplore.ieee.org/abstract/document/9553122' }],
+  },
+  // Dataset
+  {
+    type: 'dataset',
+    title: 'S1SLC_CVDL: A Complex-Valued Annotated Single Look Complex Sentinel-1 SAR Dataset for Complex-Valued Deep Networks',
+    authors: 'Reza M. Asiyabi, Mihai Datcu, Andrei Anghel and Holger Nies',
+    venue: 'IEEE DataPort',
+    year: '2023',
+    links: [{ label: 'Dataset', href: 'https://dx.doi.org/10.21227/nm4g-yd98' }],
+  },
+];
+
+const filters = [
+  { key: 'all', label: 'All' },
+  { key: 'journal', label: 'Journals' },
+  { key: 'conference', label: 'Conferences' },
+  { key: 'preprint', label: 'Working Papers' },
+  { key: 'dataset', label: 'Datasets' },
+];
+
+const typeColors: Record<string, string> = {
+  journal: 'bg-blue-500/10 text-blue-400 border-blue-500/20',
+  conference: 'bg-violet-500/10 text-violet-400 border-violet-500/20',
+  preprint: 'bg-amber-500/10 text-amber-400 border-amber-500/20',
+  dataset: 'bg-emerald-500/10 text-emerald-400 border-emerald-500/20',
+};
+
+const typeLabels: Record<string, string> = {
+  journal: 'Journal',
+  conference: 'Conference',
+  preprint: 'Working Paper',
+  dataset: 'Dataset',
+};
+---
+
+<section id="publications" class="py-24 sm:py-32 bg-surface/40">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <!-- Section header -->
+    <div class="text-center mb-12 fade-up">
+      <p class="text-accent text-xs font-semibold tracking-[0.2em] uppercase mb-3">
+        Research Output
+      </p>
+      <h2 class="text-3xl sm:text-4xl font-bold text-foreground">Publications</h2>
+      <p class="text-muted text-sm mt-3">
+        Selected publications —
+        <a
+          href="https://scholar.google.com/citations?user=jKpl5lQAAAAJ&hl=en"
+          target="_blank"
+          rel="noopener"
+          class="text-accent hover:text-accent-light transition-colors"
+        >
+          full list on Google Scholar ↗
+        </a>
+      </p>
+    </div>
+
+    <!-- Filter buttons -->
+    <div class="flex flex-wrap gap-2 justify-center mb-10 fade-up">
+      {
+        filters.map((f) => (
+          <button
+            data-filter={f.key}
+            class={`filter-btn text-xs px-4 py-2 rounded-full border transition-all duration-200 ${
+              f.key === 'all'
+                ? 'bg-accent border-accent text-white'
+                : 'bg-transparent border-stroke text-muted hover:border-accent/50 hover:text-foreground'
+            }`}
+          >
+            {f.label}
+          </button>
+        ))
+      }
+    </div>
+
+    <!-- Publication cards -->
+    <div id="pub-grid" class="space-y-3">
+      {
+        publications.map((pub) => (
+          <div
+            data-type={pub.type}
+            class="pub-card fade-up bg-surface border border-stroke rounded-xl p-5 hover:border-accent/40 transition-all duration-300"
+          >
+            <div class="flex flex-col sm:flex-row sm:items-start gap-3">
+              <div class="flex-1 min-w-0">
+                <div class="flex flex-wrap items-center gap-2 mb-1.5">
+                  <span
+                    class={`text-xs px-2 py-0.5 rounded border ${typeColors[pub.type]}`}
+                  >
+                    {typeLabels[pub.type]}
+                  </span>
+                  {pub.featured && (
+                    <span class="text-xs px-2 py-0.5 rounded border bg-accent/10 text-accent-light border-accent/20">
+                      Featured
+                    </span>
+                  )}
+                  <span class="text-xs text-faint">{pub.year}</span>
+                </div>
+                <h3 class="text-sm font-medium text-foreground leading-snug mb-1">
+                  {pub.title}
+                </h3>
+                <p class="text-xs text-faint mb-1">{pub.authors}</p>
+                <p class="text-xs text-muted italic">{pub.venue}</p>
+              </div>
+              {pub.links.length > 0 && (
+                <div class="flex flex-wrap gap-2 shrink-0">
+                  {pub.links.map((link) => (
+                    <a
+                      href={link.href}
+                      target="_blank"
+                      rel="noopener"
+                      class="text-xs px-3 py-1.5 rounded-lg bg-background border border-stroke text-accent hover:border-accent/60 hover:bg-accent/5 transition-all whitespace-nowrap"
+                    >
+                      {link.label} ↗
+                    </a>
+                  ))}
+                </div>
+              )}
+            </div>
+          </div>
+        ))
+      }
+    </div>
+  </div>
+</section>
+
+<script>
+  const filterBtns = document.querySelectorAll<HTMLButtonElement>('.filter-btn');
+  const pubCards = document.querySelectorAll<HTMLElement>('.pub-card');
+
+  filterBtns.forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const filter = btn.dataset.filter!;
+
+      // Update active button style
+      filterBtns.forEach((b) => {
+        b.classList.remove('bg-accent', 'border-accent', 'text-white');
+        b.classList.add('bg-transparent', 'border-stroke', 'text-muted');
+      });
+      btn.classList.add('bg-accent', 'border-accent', 'text-white');
+      btn.classList.remove('bg-transparent', 'border-stroke', 'text-muted');
+
+      // Show/hide cards
+      pubCards.forEach((card) => {
+        const show = filter === 'all' || card.dataset.type === filter;
+        card.style.display = show ? '' : 'none';
+      });
+    });
+  });
+</script>

@@ -1,0 +1,123 @@
+---
+const projects = [
+  {
+    title: 'Process-Guided Concept Bottleneck Models (PG-CBM)',
+    description:
+      'Physics-aware interpretable AI that combines domain knowledge with deep learning for biomass estimation from SAR data. Models reason about underlying ecological mechanisms, not just statistical patterns.',
+    image: '/images/Projects/PG-CBM.png',
+    tags: ['Physics-aware DL', 'XAI', 'SAR', 'Biomass', 'PyTorch'],
+    links: [
+      { label: 'Code', href: 'https://github.com/Reza-Asiyabi/UoE_Biomass' },
+      { label: 'NCEO', href: 'https://www.nceo.ac.uk/' },
+    ],
+    status: 'Active',
+  },
+  {
+    title: 'Complex-Valued Neural Data Compression for SAR',
+    description:
+      'End-to-end complex-valued autoencoder architecture for compressing SAR raw data, preserving the phase coherency critical for interferometric and polarimetric applications. Published in IEEE J-STSP 2025.',
+    image: '/images/Projects/CV_Compression.png',
+    tags: ['Neural Compression', 'Complex NNs', 'SAR', 'ESA', 'PyTorch'],
+    links: [
+      { label: 'IEEE Paper', href: 'https://ieeexplore.ieee.org/abstract/document/10955162' },
+      { label: 'Code', href: 'https://github.com/Reza-Asiyabi/Complex-Valued-End-to-End-Deep-Network-for-SAR' },
+    ],
+    status: 'Published',
+  },
+  {
+    title: 'Market Activity Index (MAI)',
+    description:
+      'Remote sensing system to detect and monitor informal rural markets in low-income countries using high-resolution satellite imagery. Enables real-time economic monitoring where ground data is absent.',
+    image: '/images/Projects/MAI.png',
+    tags: ['Remote Sensing', 'Change Detection', 'GEE', 'Stanford', 'Python'],
+    links: [
+      { label: 'Project', href: 'https://market-activity.net/' },
+      { label: 'Preprint', href: 'https://arxiv.org/abs/2407.12953' },
+      { label: 'Code', href: 'https://github.com/Reza-Asiyabi/MAI' },
+    ],
+    status: 'Published',
+  },
+];
+
+const statusColors: Record<string, string> = {
+  Active: 'bg-emerald-500/15 text-emerald-400 border-emerald-500/30',
+  Published: 'bg-blue-500/15 text-blue-400 border-blue-500/30',
+};
+---
+
+<section id="projects" class="py-24 sm:py-32">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <!-- Section header -->
+    <div class="text-center mb-16 fade-up">
+      <p class="text-accent text-xs font-semibold tracking-[0.2em] uppercase mb-3">
+        What I've Built
+      </p>
+      <h2 class="text-3xl sm:text-4xl font-bold text-foreground">
+        Featured Projects
+      </h2>
+    </div>
+
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+      {
+        projects.map((project, i) => (
+          <div
+            class="fade-up bg-surface border border-stroke rounded-2xl overflow-hidden hover:border-accent/40 transition-all duration-300 hover:shadow-xl hover:shadow-accent/5 hover:-translate-y-1 flex flex-col"
+            style={`transition-delay: ${i * 80}ms`}
+          >
+            <!-- Project image -->
+            <div class="relative h-44 bg-background overflow-hidden">
+              <img
+                src={project.image}
+                alt={project.title}
+                class="w-full h-full object-contain p-4 opacity-90 hover:opacity-100 transition-opacity"
+                loading="lazy"
+              />
+              <div class="absolute inset-0 bg-gradient-to-t from-surface/60 to-transparent" />
+              <!-- Status badge -->
+              <div class="absolute top-3 right-3">
+                <span
+                  class={`text-xs px-2.5 py-1 rounded-full border font-medium ${statusColors[project.status]}`}
+                >
+                  {project.status}
+                </span>
+              </div>
+            </div>
+
+            <!-- Content -->
+            <div class="p-6 flex flex-col flex-1">
+              <h3 class="text-sm font-semibold text-foreground leading-snug mb-3">
+                {project.title}
+              </h3>
+              <p class="text-xs text-muted leading-relaxed mb-4 flex-1">
+                {project.description}
+              </p>
+
+              <!-- Tags -->
+              <div class="flex flex-wrap gap-1.5 mb-4">
+                {project.tags.map((tag) => (
+                  <span class="text-xs px-2 py-0.5 rounded-full bg-background border border-stroke text-faint">
+                    {tag}
+                  </span>
+                ))}
+              </div>
+
+              <!-- Links -->
+              <div class="flex flex-wrap gap-3 pt-4 border-t border-stroke">
+                {project.links.map((link) => (
+                  <a
+                    href={link.href}
+                    target="_blank"
+                    rel="noopener"
+                    class="text-xs text-accent hover:text-accent-light transition-colors flex items-center gap-1"
+                  >
+                    {link.label} ↗
+                  </a>
+                ))}
+              </div>
+            </div>
+          </div>
+        ))
+      }
+    </div>
+  </div>
+</section>

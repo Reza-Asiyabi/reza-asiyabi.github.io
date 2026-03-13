@@ -1,0 +1,16 @@
+# Astro
+dist/
+.astro/
+
+# Node
+node_modules/
+
+# Jekyll (legacy)
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# OS
+.DS_Store
+Thumbs.db

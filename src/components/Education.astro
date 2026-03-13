@@ -1,0 +1,104 @@
+---
+const education = [
+  {
+    degree: 'PhD in Deep Learning for SAR Data',
+    institution: 'University POLITEHNICA of Bucharest (UPB)',
+    location: 'Bucharest, Romania',
+    period: 'Dec 2020 — Dec 2023',
+    details: [
+      'Marie Curie Early Stage Researcher — MENELAOS-NT H2020 ITN Project',
+      'Research Center for Spatial Information (CEOSpaceTech)',
+      'Thesis: Deep Learning for SAR Data in Presence of Adversarial Samples',
+    ],
+    badge: 'PhD',
+    badgeColor: 'bg-indigo-500/15 text-indigo-400 border-indigo-500/30',
+  },
+  {
+    degree: 'Visiting Researcher',
+    institution: 'Zentrum für Sensorsysteme (ZESS), University of Siegen',
+    location: 'Siegen, Germany',
+    period: 'Oct 2021 — Oct 2022',
+    details: [
+      'Research secondment in the frame of MENELAOS-NT',
+      'Focus: Complex-valued deep architectures for SAR data classification',
+    ],
+    badge: 'Visiting',
+    badgeColor: 'bg-violet-500/15 text-violet-400 border-violet-500/30',
+  },
+  {
+    degree: 'MSc in Remote Sensing Engineering',
+    institution: 'K.N. Toosi University of Technology',
+    location: 'Tehran, Iran',
+    period: '2016 — 2018',
+    details: [
+      'Remote Sensing Research Center, Faculty of Geomatics',
+      'Thesis: Bag of Visual Words Model Enhancement for PolSAR Images Classification',
+    ],
+    badge: 'MSc',
+    badgeColor: 'bg-blue-500/15 text-blue-400 border-blue-500/30',
+  },
+  {
+    degree: 'BSc in Geodesy and Geomatics Engineering',
+    institution: 'K.N. Toosi University of Technology',
+    location: 'Tehran, Iran',
+    period: '2012 — 2016',
+    details: ['Faculty of Geodesy and Geomatics Engineering'],
+    badge: 'BSc',
+    badgeColor: 'bg-slate-500/15 text-slate-400 border-slate-500/30',
+  },
+];
+---
+
+<section id="education" class="py-24 sm:py-32">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <!-- Section header -->
+    <div class="text-center mb-16 fade-up">
+      <p class="text-accent text-xs font-semibold tracking-[0.2em] uppercase mb-3">
+        Academic Background
+      </p>
+      <h2 class="text-3xl sm:text-4xl font-bold text-foreground">Education</h2>
+    </div>
+
+    <div class="max-w-3xl mx-auto space-y-6">
+      {
+        education.map((edu, i) => (
+          <div
+            class="fade-up flex gap-5"
+            style={`transition-delay: ${i * 80}ms`}
+          >
+            <!-- Badge -->
+            <div class="shrink-0 pt-0.5">
+              <span
+                class={`inline-block text-xs font-semibold px-2.5 py-1 rounded border ${edu.badgeColor} w-16 text-center`}
+              >
+                {edu.badge}
+              </span>
+            </div>
+
+            <!-- Content -->
+            <div class="flex-1 pb-6 border-b border-stroke last:border-0 last:pb-0">
+              <div class="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-1 mb-2">
+                <div>
+                  <h3 class="text-sm font-semibold text-foreground">{edu.degree}</h3>
+                  <p class="text-sm text-accent-light mt-0.5">{edu.institution}</p>
+                </div>
+                <div class="text-right shrink-0">
+                  <div class="text-xs text-muted font-medium">{edu.period}</div>
+                  <div class="text-xs text-faint mt-0.5">{edu.location}</div>
+                </div>
+              </div>
+              <ul class="space-y-1 mt-2">
+                {edu.details.map((d) => (
+                  <li class="flex items-start gap-2 text-xs text-muted">
+                    <span class="text-faint mt-0.5 shrink-0">•</span>
+                    {d}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        ))
+      }
+    </div>
+  </div>
+</section>

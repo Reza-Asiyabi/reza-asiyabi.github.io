@@ -1,0 +1,151 @@
+---
+const newsItems = [
+  {
+    date: 'Dec 2025',
+    text: 'Presenting work on process-guided AI models for biomass estimation at the EurIPS 2025 conference — AICC Workshop.',
+    links: [
+      { label: 'EurIPS 2025', href: 'https://eurips.cc/' },
+      { label: 'AICC Workshop', href: 'https://sites.google.com/g.harvard.edu/aicceurips' },
+    ],
+  },
+  {
+    date: 'Jun 2025',
+    text: 'Presenting two talks at the ESA Living Planet Symposium 2025: complex-valued neural SAR data compression, and domain-aware AI for biomass estimation.',
+    links: [{ label: 'LPS 2025', href: 'https://lps25.esa.int/' }],
+  },
+  {
+    date: 'Sep 2024',
+    text: 'Attending the UK National Earth Observation Conference 2024.',
+    links: [{ label: 'UKEO 2024', href: 'https://ukeo.org/' }],
+  },
+  {
+    date: 'Aug 2024',
+    text: 'Joined the UK National Centre for Earth Observation (NCEO) and the University of Edinburgh as a Postdoctoral Research Associate.',
+    links: [],
+  },
+  {
+    date: 'Jan 2024',
+    text: 'Joined the Market Activity Index (MAI) project at Stanford University, Center on Food Security and the Environment (FSE).',
+    links: [{ label: 'FSE', href: 'https://fse.fsi.stanford.edu/' }],
+  },
+  {
+    date: 'Dec 2023',
+    text: 'Doctoral Thesis Viva — Deep Learning for SAR Data in Presence of Adversarial Samples — University POLITEHNICA of Bucharest.',
+    links: [],
+  },
+  {
+    date: 'Sep 2023',
+    text: 'Presented at the International Conference on Content-based Multimedia Indexing (CBMI) 2023, Orleans, France.',
+    links: [{ label: 'CBMI 2023', href: 'https://cbmi2023.org/' }],
+  },
+  {
+    date: 'Jul 2023',
+    text: 'Presented at IEEE IGARSS 2023, Pasadena, California.',
+    links: [{ label: 'IGARSS 2023', href: 'https://2023.ieeeigarss.org/' }],
+  },
+  {
+    date: 'May 2023',
+    text: 'Attended the IEEE GRSS High-Performance and Disruptive Computing in Remote Sensing (HDCRS) summer school, Reykjavík, Iceland.',
+    links: [{ label: 'HDCRS', href: 'https://www.hdc-rs.com/' }],
+  },
+  {
+    date: 'Jul 2022',
+    text: 'Presented at EuSAR 2022 (Leipzig) and IGARSS 2022 (Kuala Lumpur).',
+    links: [
+      { label: 'EuSAR 2022', href: 'https://www.eusar.de/en' },
+      { label: 'IGARSS 2022', href: 'https://www.igarss2022.org/' },
+    ],
+  },
+  {
+    date: 'Jun 2022',
+    text: 'Research visit at Zentrum für Sensorsysteme (ZESS), University of Siegen, Germany.',
+    links: [{ label: 'ZESS', href: 'https://www.uni-siegen.de/zess/' }],
+  },
+];
+
+const VISIBLE_COUNT = 5;
+---
+
+<section id="news" class="py-24 sm:py-32 bg-surface/40">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <!-- Section header -->
+    <div class="text-center mb-14 fade-up">
+      <p class="text-accent text-xs font-semibold tracking-[0.2em] uppercase mb-3">
+        Latest Updates
+      </p>
+      <h2 class="text-3xl sm:text-4xl font-bold text-foreground">News</h2>
+    </div>
+
+    <div class="max-w-3xl mx-auto">
+      <div id="news-list" class="space-y-4">
+        {
+          newsItems.map((item, i) => (
+            <div
+              class={`news-item fade-up flex gap-5 ${i >= VISIBLE_COUNT ? 'hidden' : ''}`}
+              style={`transition-delay: ${Math.min(i, 4) * 60}ms`}
+            >
+              <!-- Date -->
+              <div class="shrink-0 w-20 text-right">
+                <span class="text-xs text-faint font-medium">{item.date}</span>
+              </div>
+              <!-- Divider dot -->
+              <div class="shrink-0 flex flex-col items-center">
+                <div class="w-1.5 h-1.5 rounded-full bg-accent mt-1" />
+                <div class="w-px flex-1 bg-stroke mt-1" />
+              </div>
+              <!-- Content -->
+              <div class="flex-1 pb-4">
+                <p class="text-sm text-muted leading-relaxed">
+                  {item.text}
+                  {item.links.map((link) => (
+                    <>
+                      {' '}
+                      <a
+                        href={link.href}
+                        target="_blank"
+                        rel="noopener"
+                        class="text-accent hover:text-accent-light transition-colors"
+                      >
+                        [{link.label}]
+                      </a>
+                    </>
+                  ))}
+                </p>
+              </div>
+            </div>
+          ))
+        }
+      </div>
+
+      {
+        newsItems.length > VISIBLE_COUNT && (
+          <div class="text-center mt-6">
+            <button
+              id="news-toggle"
+              class="text-sm text-accent hover:text-accent-light transition-colors border border-stroke hover:border-accent/50 px-5 py-2 rounded-full"
+            >
+              Show {newsItems.length - VISIBLE_COUNT} older updates ↓
+            </button>
+          </div>
+        )
+      }
+    </div>
+  </div>
+</section>
+
+<script>
+  const btn = document.getElementById('news-toggle');
+  if (btn) {
+    let expanded = false;
+    btn.addEventListener('click', () => {
+      expanded = !expanded;
+      document.querySelectorAll('.news-item.hidden').forEach((el) => {
+        el.classList.remove('hidden');
+        el.classList.add('fade-up', 'visible');
+      });
+      if (expanded) {
+        btn.textContent = 'Show less ↑';
+      }
+    });
+  }
+</script>

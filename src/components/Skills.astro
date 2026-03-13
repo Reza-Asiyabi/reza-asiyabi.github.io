@@ -1,0 +1,98 @@
+---
+const skillGroups = [
+  {
+    title: 'AI & Machine Learning',
+    icon: '🧠',
+    skills: [
+      'Physics-aware Deep Learning',
+      'Interpretable AI / XAI',
+      'Complex-valued Neural Networks',
+      'Concept Bottleneck Models',
+      'Generative AI',
+      'Neural Data Compression',
+      'Computer Vision',
+      'Semantic Segmentation',
+      'Change Detection',
+    ],
+  },
+  {
+    title: 'Earth Observation',
+    icon: '🛰️',
+    skills: [
+      'Synthetic Aperture Radar (SAR)',
+      'Biomass Estimation',
+      'Land Cover Classification',
+      'Radar Backscatter Physics',
+      'Sentinel-1 / Sentinel-2',
+      'Google Earth Engine',
+      'Object Detection (EO)',
+      'SAR Data Processing',
+    ],
+  },
+  {
+    title: 'Programming & Tools',
+    icon: '⚙️',
+    skills: [
+      'Python',
+      'PyTorch',
+      'TensorFlow / Keras',
+      'Google Earth Engine API',
+      'Git / GitHub',
+      'MATLAB',
+      'Jupyter',
+      'Linux / HPC',
+      'Docker',
+    ],
+  },
+  {
+    title: 'Research',
+    icon: '📝',
+    skills: [
+      'Scientific Writing',
+      'ESA / UKRI Grants',
+      'IEEE Peer Review',
+      'Multi-institution Collaboration',
+      'Dataset Creation',
+      'Conference Presentations',
+      'Marie Curie ETN',
+    ],
+  },
+];
+---
+
+<section id="skills" class="py-24 sm:py-32 bg-surface/40">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <!-- Section header -->
+    <div class="text-center mb-16 fade-up">
+      <p class="text-accent text-xs font-semibold tracking-[0.2em] uppercase mb-3">
+        What I Work With
+      </p>
+      <h2 class="text-3xl sm:text-4xl font-bold text-foreground">
+        Technical Skills
+      </h2>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      {
+        skillGroups.map((group, i) => (
+          <div
+            class="fade-up bg-surface border border-stroke rounded-2xl p-6 hover:border-accent/40 transition-all duration-300 hover:shadow-lg hover:shadow-accent/5"
+            style={`transition-delay: ${i * 80}ms`}
+          >
+            <div class="text-2xl mb-3">{group.icon}</div>
+            <h3 class="text-sm font-semibold text-foreground mb-4 tracking-wide">
+              {group.title}
+            </h3>
+            <div class="flex flex-wrap gap-2">
+              {group.skills.map((skill) => (
+                <span class="text-xs px-2.5 py-1 rounded-full bg-background border border-stroke text-muted hover:border-accent/50 hover:text-foreground transition-colors cursor-default">
+                  {skill}
+                </span>
+              ))}
+            </div>
+          </div>
+        ))
+      }
+    </div>
+  </div>
+</section>

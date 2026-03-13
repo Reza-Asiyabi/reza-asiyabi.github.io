@@ -1,0 +1,117 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Nav from '../components/Nav.astro';
+import Footer from '../components/Footer.astro';
+
+const travelPhotos = [
+  { src: '/images/Travel/Amsterdam.jpeg', caption: 'Amsterdam, Netherlands' },
+  { src: '/images/Travel/Interlaken.jpeg', caption: 'Paragliding in Swiss Alps, Interlaken' },
+  { src: '/images/Travel/Munich - Octoberfest.jpeg', caption: 'Oktoberfest, Munich, Germany' },
+  { src: '/images/Travel/Paris - With Saqib.jpeg', caption: 'Paris, France' },
+  { src: '/images/Travel/Reykjavik - With Omid.jpeg', caption: 'Reykjavik, Iceland' },
+  { src: '/images/Travel/Venice - With Shaahin.jpeg', caption: 'Venice, Italy' },
+  { src: '/images/Travel/Venice - Biennale.jpeg', caption: 'Biennale, Venice, Italy' },
+];
+
+const sportsPhotos = [
+  { src: '/images/Sports/Basketball.jpeg', caption: 'Basketball' },
+  { src: '/images/Sports/Hiking.jpeg', caption: 'Hiking' },
+  { src: '/images/Sports/Gym2.jpeg', caption: 'Gym' },
+];
+
+const conferencePhotos = [
+  { src: '/images/Conferences/Bonn - LPS.jpeg', caption: 'ESA Living Planet Symposium 2022, Bonn, Germany' },
+  { src: '/images/Conferences/Reykjavik - HDCR.jpeg', caption: 'IEEE GRSS HDCRS Summer School, Reykjavik, Iceland' },
+  { src: '/images/Conferences/Santiago - MENELAOS Presentation.jpeg', caption: 'MENELAOS Mid-term Summer School, Santiago, Spain' },
+  { src: '/images/Conferences/Siegen - MENELAOS Forum Presentation.jpeg', caption: 'MENELAOS Forum 2022, Siegen, Germany' },
+  { src: '/images/Conferences/Siegen - MENELAOS Forum - Group.jpeg', caption: 'MENELAOS Forum 2022 — Group photo, Siegen, Germany' },
+];
+
+const sections = [
+  {
+    title: 'Travel',
+    subtitle: 'The world is pretty amazing — here are some of the places I\'ve had the pleasure of exploring.',
+    photos: travelPhotos,
+    icon: '✈️',
+  },
+  {
+    title: 'Sports',
+    subtitle: 'Exercise and sport are part of my daily routine — basketball, hiking, gym, and always looking for the next adventure.',
+    photos: sportsPhotos,
+    icon: '🏀',
+  },
+  {
+    title: 'Conferences & Events',
+    subtitle: 'Sharing research at international venues, from IGARSS and EuSAR to ESA events and MENELAOS forums.',
+    photos: conferencePhotos,
+    icon: '🎤',
+  },
+];
+---
+
+<Layout
+  title="Gallery — Reza M. Asiyabi"
+  description="Personal gallery of Reza M. Asiyabi — travel, sports, and conference photos."
+>
+  <Nav />
+
+  <main class="pt-24 pb-20">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <!-- Page header -->
+      <div class="text-center mb-16 fade-up">
+        <a
+          href="/"
+          class="inline-flex items-center gap-2 text-xs text-faint hover:text-muted transition-colors mb-6"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+          </svg>
+          Back to home
+        </a>
+        <p class="text-accent text-xs font-semibold tracking-[0.2em] uppercase mb-3">
+          Beyond the Research
+        </p>
+        <h1 class="text-3xl sm:text-4xl font-bold text-foreground">Gallery</h1>
+        <p class="text-muted text-sm mt-3 max-w-md mx-auto leading-relaxed">
+          A glimpse into life outside the lab — travel, sport, and moments from conferences around the world.
+        </p>
+      </div>
+
+      <!-- Gallery sections -->
+      {
+        sections.map((section, si) => (
+          <div class="mb-20 fade-up" style={`transition-delay: ${si * 100}ms`}>
+            <div class="flex items-center gap-3 mb-3">
+              <span class="text-xl">{section.icon}</span>
+              <h2 class="text-xl font-semibold text-foreground">{section.title}</h2>
+            </div>
+            <p class="text-sm text-muted mb-6 ml-9">{section.subtitle}</p>
+
+            <!-- Photo grid -->
+            <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
+              {section.photos.map((photo, pi) => (
+                <div
+                  class="group relative aspect-square overflow-hidden rounded-xl bg-surface border border-stroke hover:border-accent/40 transition-all duration-300"
+                  style={`transition-delay: ${pi * 40}ms`}
+                >
+                  <img
+                    src={photo.src}
+                    alt={photo.caption}
+                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    loading="lazy"
+                  />
+                  <!-- Caption overlay -->
+                  <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-3">
+                    <p class="text-white text-xs leading-tight">{photo.caption}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        ))
+      }
+    </div>
+  </main>
+
+  <Footer />
+</Layout>

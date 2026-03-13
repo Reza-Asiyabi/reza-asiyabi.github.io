@@ -1,0 +1,183 @@
+---
+const navLinks = [
+  { href: '#about', label: 'About' },
+  { href: '#projects', label: 'Projects' },
+  { href: '#skills', label: 'Skills' },
+  { href: '#experience', label: 'Experience' },
+  { href: '#publications', label: 'Publications' },
+  { href: '#education', label: 'Education' },
+  { href: '#contact', label: 'Contact' },
+];
+---
+
+<nav
+  id="navbar"
+  class="fixed top-0 left-0 right-0 z-50 transition-all duration-300"
+>
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-16">
+      <!-- Logo -->
+      <a
+        href="/"
+        class="text-base font-semibold text-foreground hover:text-accent-light transition-colors tracking-tight"
+      >
+        Reza M. Asiyabi
+      </a>
+
+      <!-- Desktop nav -->
+      <div class="hidden md:flex items-center gap-7">
+        {
+          navLinks.map((link) => (
+            <a
+              href={link.href}
+              class="nav-link text-sm text-muted hover:text-foreground transition-colors"
+            >
+              {link.label}
+            </a>
+          ))
+        }
+        <a
+          href="/files/Reza_CV.pdf"
+          target="_blank"
+          rel="noopener"
+          class="text-sm px-4 py-1.5 rounded-full border border-accent text-accent hover:bg-accent hover:text-white transition-all duration-200"
+        >
+          Download CV
+        </a>
+      </div>
+
+      <!-- Mobile hamburger -->
+      <button
+        id="menu-btn"
+        class="md:hidden text-muted hover:text-foreground transition-colors p-1"
+        aria-label="Toggle menu"
+      >
+        <svg
+          id="icon-open"
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-6 w-6"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+        <svg
+          id="icon-close"
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-6 w-6 hidden"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M6 18L18 6M6 6l12 12"></path>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- Mobile menu -->
+  <div
+    id="mobile-menu"
+    class="hidden md:hidden border-t border-stroke bg-background/95 backdrop-blur-md"
+  >
+    <div class="px-6 py-5 space-y-4">
+      {
+        navLinks.map((link) => (
+          <a
+            href={link.href}
+            class="block text-muted hover:text-foreground transition-colors text-sm py-0.5"
+          >
+            {link.label}
+          </a>
+        ))
+      }
+      <a
+        href="/files/Reza_CV.pdf"
+        target="_blank"
+        rel="noopener"
+        class="block text-accent hover:text-accent-light transition-colors text-sm pt-1 border-t border-stroke"
+      >
+        Download CV ↗
+      </a>
+    </div>
+  </div>
+</nav>
+
+<script>
+  const navbar = document.getElementById('navbar')!;
+  const mobileMenu = document.getElementById('mobile-menu')!;
+  const menuBtn = document.getElementById('menu-btn')!;
+  const iconOpen = document.getElementById('icon-open')!;
+  const iconClose = document.getElementById('icon-close')!;
+
+  // Scroll → add background blur
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 20) {
+      navbar.classList.add(
+        'bg-background/90',
+        'backdrop-blur-md',
+        'border-b',
+        'border-stroke/50',
+        'shadow-2xl',
+        'shadow-black/20'
+      );
+    } else {
+      navbar.classList.remove(
+        'bg-background/90',
+        'backdrop-blur-md',
+        'border-b',
+        'border-stroke/50',
+        'shadow-2xl',
+        'shadow-black/20'
+      );
+    }
+  });
+
+  // Mobile menu toggle
+  menuBtn.addEventListener('click', () => {
+    const isOpen = !mobileMenu.classList.contains('hidden');
+    mobileMenu.classList.toggle('hidden');
+    iconOpen.classList.toggle('hidden', !isOpen);
+    iconClose.classList.toggle('hidden', isOpen);
+  });
+
+  // Close mobile menu on link click
+  mobileMenu.querySelectorAll('a').forEach((link) => {
+    link.addEventListener('click', () => {
+      mobileMenu.classList.add('hidden');
+      iconOpen.classList.remove('hidden');
+      iconClose.classList.add('hidden');
+    });
+  });
+
+  // Active nav link on scroll
+  const sections = document.querySelectorAll<HTMLElement>('section[id]');
+  const navLinks = document.querySelectorAll<HTMLElement>('.nav-link');
+
+  const sectionObserver = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          navLinks.forEach((link) => {
+            const isActive =
+              link.getAttribute('href') === `#${entry.target.id}`;
+            link.classList.toggle('text-foreground', isActive);
+            link.classList.toggle('text-muted', !isActive);
+          });
+        }
+      });
+    },
+    { rootMargin: '-40% 0px -55% 0px' }
+  );
+
+  sections.forEach((s) => sectionObserver.observe(s));
+</script>
