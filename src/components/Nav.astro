@@ -1,4 +1,8 @@
 ---
+const isHome = Astro.url.pathname === '/';
+
+// On sub-pages (e.g. /gallery), anchor links must be prefixed with '/'
+// so the browser navigates to the home page at that anchor.
 const navLinks = [
   { href: '#about', label: 'About' },
   { href: '#projects', label: 'Projects' },
@@ -7,7 +11,10 @@ const navLinks = [
   { href: '#publications', label: 'Publications' },
   { href: '#education', label: 'Education' },
   { href: '#contact', label: 'Contact' },
-];
+].map(link => ({
+  ...link,
+  href: isHome ? link.href : `/${link.href}`,
+}));
 ---
 
 <nav
