@@ -1,26 +1,28 @@
-# Reza Asiyabi's personnal website
+# reza-asiyabi.github.io
 
-[![Jekyll](https://img.shields.io/badge/jekyll-%3E%3D%203.7-blue.svg)](https://jekyllrb.com/)
-[![Ruby gem](https://img.shields.io/gem/v/minimal-mistakes-jekyll.svg)](https://rubygems.org/gems/minimal-mistakes-jekyll)
+Personal portfolio website. Live at [reza-asiyabi.github.io](https://reza-asiyabi.github.io).
 
-This is the repository for my personal website. Visit it at [https://reza-asiyabi.github.io/](https://reza-asiyabi.github.io/)
+Built with [Astro](https://astro.build) and [Tailwind CSS](https://tailwindcss.com). Deployed automatically to GitHub Pages via GitHub Actions on every push to `main`.
 
-## Credits
+## Development
 
-The website is based on Michael Rose's [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes) Jekyll theme.
-
-## Usage
-
-To setup an environment to run the website in development, execute
-
-```console
-bundle install
+```bash
+npm install
+npm run dev       # local dev server at http://localhost:4000
+npm run build     # production build → dist/
+npm run optimize  # convert new images to WebP
 ```
 
-then
+## Structure
 
-```console
-bundle exec jekyll serve --incremental
 ```
-
-to serve the website locally and watch changes.
+src/
+  components/   — Hero, About, Experience, Publications, Skills, …
+  layouts/      — base HTML shell with theme support
+  pages/        — index.astro, gallery.astro, 404.astro
+public/
+  images/       — WebP images (run npm run optimize after adding new ones)
+  files/        — CV PDF
+scripts/
+  optimize-images.mjs  — batch JPEG/PNG → WebP converter
+```
