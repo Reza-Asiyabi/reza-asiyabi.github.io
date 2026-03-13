@@ -21,7 +21,7 @@ const {
     <!-- Open Graph -->
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
-    <meta property="og:image" content="https://reza-asiyabi.github.io/images/photo1682407752.jpeg" />
+    <meta property="og:image" content="https://reza-asiyabi.github.io/images/photo1682407752.webp" />
     <meta property="og:url" content="https://reza-asiyabi.github.io" />
     <meta property="og:type" content="website" />
 
@@ -30,7 +30,7 @@ const {
     <meta name="twitter:creator" content="@reza_m_asiyabi" />
 
     <!-- Favicon -->
-    <link rel="icon" type="image/jpeg" href="/images/photo1682407752.jpeg" />
+    <link rel="icon" type="image/webp" href="/images/photo1682407752.webp" />
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -39,6 +39,17 @@ const {
       href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
+
+    <!-- Prevent flash of wrong theme: apply saved preference before paint -->
+    <script is:inline>
+      (function () {
+        try {
+          if (localStorage.getItem('theme') === 'light') {
+            document.documentElement.classList.add('light');
+          }
+        } catch (_) {}
+      })();
+    </script>
 
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-DGQ7BQQ1DV"
@@ -61,7 +72,36 @@ const {
 </html>
 
 <style is:global>
-  /* Scroll-triggered fade-in */
+  /* ─── CSS custom property palette ────────────────────────────────────── */
+  /* Values are raw RGB channels so Tailwind opacity modifiers work:        */
+  /*   bg-surface/40  →  rgb(var(--c-surface) / 0.4)                       */
+
+  :root {
+    /* Dark theme (default) */
+    --c-bg:            11 11 18;      /* #0b0b12 */
+    --c-surface:       18 18 28;      /* #12121c */
+    --c-stroke:        30 30 46;      /* #1e1e2e */
+    --c-accent:        99 102 241;    /* #6366f1 indigo-500 */
+    --c-accent-light:  129 140 248;   /* #818cf8 indigo-400 */
+    --c-accent-violet: 167 139 250;   /* #a78bfa violet-400 */
+    --c-fg:            226 232 240;   /* #e2e8f0 slate-200 */
+    --c-muted:         148 163 184;   /* #94a3b8 slate-400 */
+    --c-faint:         71  85  105;   /* #475569 slate-600 */
+  }
+
+  .light {
+    --c-bg:            255 255 255;   /* #ffffff */
+    --c-surface:       248 250 252;   /* #f8fafc slate-50 */
+    --c-stroke:        226 232 240;   /* #e2e8f0 slate-200 */
+    --c-accent:        79  70  229;   /* #4f46e5 indigo-600 */
+    --c-accent-light:  99  102 241;   /* #6366f1 indigo-500 */
+    --c-accent-violet: 124 58  237;   /* #7c3aed violet-600 */
+    --c-fg:            15  23  42;    /* #0f172a slate-950 */
+    --c-muted:         71  85  105;   /* #475569 slate-600 */
+    --c-faint:         148 163 184;   /* #94a3b8 slate-400 */
+  }
+
+  /* ─── Scroll-triggered fade-in ─────────────────────────────────────── */
   .fade-up {
     opacity: 0;
     transform: translateY(24px);
@@ -72,24 +112,26 @@ const {
     transform: translateY(0);
   }
 
-  /* Stagger delays for grouped items */
-  .stagger > *:nth-child(1) { transition-delay: 0ms; }
-  .stagger > *:nth-child(2) { transition-delay: 80ms; }
-  .stagger > *:nth-child(3) { transition-delay: 160ms; }
-  .stagger > *:nth-child(4) { transition-delay: 240ms; }
-  .stagger > *:nth-child(5) { transition-delay: 320ms; }
-  .stagger > *:nth-child(6) { transition-delay: 400ms; }
-
-  /* Custom scrollbar */
+  /* ─── Custom scrollbar ─────────────────────────────────────────────── */
   ::-webkit-scrollbar { width: 6px; }
-  ::-webkit-scrollbar-track { background: #0b0b12; }
-  ::-webkit-scrollbar-thumb { background: #1e1e2e; border-radius: 3px; }
-  ::-webkit-scrollbar-thumb:hover { background: #6366f1; }
+  ::-webkit-scrollbar-track { background: rgb(var(--c-bg)); }
+  ::-webkit-scrollbar-thumb { background: rgb(var(--c-stroke)); border-radius: 3px; }
+  ::-webkit-scrollbar-thumb:hover { background: rgb(var(--c-accent)); }
 
   html { font-family: 'Inter', system-ui, sans-serif; }
+
+  /* Smooth theme transitions (skip on initial page load to avoid FOUC) */
+  .theme-ready * {
+    transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease !important;
+  }
 </style>
 
 <script>
+  // Enable smooth theme transitions only after first paint
+  requestAnimationFrame(() => {
+    document.documentElement.classList.add('theme-ready');
+  });
+
   // Intersection observer for fade-up animations
   const observer = new IntersectionObserver(
     (entries) => {

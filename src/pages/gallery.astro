@@ -4,33 +4,57 @@ import Nav from '../components/Nav.astro';
 import Footer from '../components/Footer.astro';
 
 const travelPhotos = [
-  { src: '/images/Travel/Amsterdam.jpeg', caption: 'Amsterdam, Netherlands' },
-  { src: '/images/Travel/Interlaken.jpeg', caption: 'Paragliding in Swiss Alps, Interlaken' },
-  { src: '/images/Travel/Munich - Octoberfest.jpeg', caption: 'Oktoberfest, Munich, Germany' },
-  { src: '/images/Travel/Paris - With Saqib.jpeg', caption: 'Paris, France' },
-  { src: '/images/Travel/Reykjavik - With Omid.jpeg', caption: 'Reykjavik, Iceland' },
-  { src: '/images/Travel/Venice - With Shaahin.jpeg', caption: 'Venice, Italy' },
-  { src: '/images/Travel/Venice - Biennale.jpeg', caption: 'Biennale, Venice, Italy' },
+  { src: '/images/Travel/Amsterdam.webp', caption: 'Amsterdam, Netherlands' },
+  { src: '/images/Travel/Paris - With Saqib.webp', caption: 'Paris, France' },
+  { src: '/images/Travel/Paris.webp', caption: 'Paris, France' },
+  { src: '/images/Travel/Venice - With Shaahin.webp', caption: 'Venice, Italy' },
+  { src: '/images/Travel/Venice - Biennale.webp', caption: 'Biennale, Venice' },
+  { src: '/images/Travel/Venice.webp', caption: 'Venice, Italy' },
+  { src: '/images/Travel/Rome.webp', caption: 'Rome, Italy' },
+  { src: '/images/Travel/Milan.webp', caption: 'Milan, Italy' },
+  { src: '/images/Travel/Genoa.webp', caption: 'Genoa, Italy' },
+  { src: '/images/Travel/Interlaken.webp', caption: 'Paragliding, Swiss Alps — Interlaken' },
+  { src: '/images/Travel/Zurich.webp', caption: 'Zurich, Switzerland' },
+  { src: '/images/Travel/Vienna.webp', caption: 'Vienna, Austria' },
+  { src: '/images/Travel/Munich - Octoberfest.webp', caption: 'Oktoberfest, Munich, Germany' },
+  { src: '/images/Travel/Frankfurt.webp', caption: 'Frankfurt, Germany' },
+  { src: '/images/Travel/Berlin - With Omid and Shadi.webp', caption: 'Berlin, Germany' },
+  { src: '/images/Travel/Madrid.webp', caption: 'Madrid, Spain' },
+  { src: '/images/Travel/Santiago.webp', caption: 'Santiago de Compostela, Spain' },
+  { src: '/images/Travel/Reykjavik - With Omid.webp', caption: 'Reykjavik, Iceland' },
+  { src: '/images/Travel/Reykjavik - With Madison and Simon.webp', caption: 'Reykjavik, Iceland' },
+  { src: '/images/Travel/Reykjavik - Student Bar.webp', caption: 'Reykjavik, Iceland' },
+  { src: '/images/Travel/Reykjavik.webp', caption: 'Reykjavik, Iceland' },
+  { src: '/images/Travel/Den Haag.webp', caption: 'The Hague, Netherlands' },
 ];
 
 const sportsPhotos = [
-  { src: '/images/Sports/Basketball.jpeg', caption: 'Basketball' },
-  { src: '/images/Sports/Hiking.jpeg', caption: 'Hiking' },
-  { src: '/images/Sports/Gym2.jpeg', caption: 'Gym' },
+  { src: '/images/Sports/Basketball.webp', caption: 'Basketball' },
+  { src: '/images/Sports/Hiking.webp', caption: 'Hiking' },
+  { src: '/images/Sports/Gym1.webp', caption: 'Gym' },
+  { src: '/images/Sports/Gym2.webp', caption: 'Gym' },
+  { src: '/images/Sports/Foosball.webp', caption: 'Foosball' },
 ];
 
 const conferencePhotos = [
-  { src: '/images/Conferences/Bonn - LPS.jpeg', caption: 'ESA Living Planet Symposium 2022, Bonn, Germany' },
-  { src: '/images/Conferences/Reykjavik - HDCR.jpeg', caption: 'IEEE GRSS HDCRS Summer School, Reykjavik, Iceland' },
-  { src: '/images/Conferences/Santiago - MENELAOS Presentation.jpeg', caption: 'MENELAOS Mid-term Summer School, Santiago, Spain' },
-  { src: '/images/Conferences/Siegen - MENELAOS Forum Presentation.jpeg', caption: 'MENELAOS Forum 2022, Siegen, Germany' },
-  { src: '/images/Conferences/Siegen - MENELAOS Forum - Group.jpeg', caption: 'MENELAOS Forum 2022 — Group photo, Siegen, Germany' },
+  { src: '/images/Conferences/Bonn - LPS.webp', caption: 'ESA Living Planet Symposium 2022, Bonn, Germany' },
+  { src: '/images/Conferences/Bonn - LPS - With Omid and Amjad.webp', caption: 'ESA LPS 2022, Bonn — with colleagues' },
+  { src: '/images/Conferences/Kuala Lumpor - IGARSS 2022 Presentation.webp', caption: 'IGARSS 2022 presentation, Kuala Lumpur, Malaysia' },
+  { src: '/images/Conferences/Kuala Lumpor - IGARSS 2022.webp', caption: 'IGARSS 2022, Kuala Lumpur, Malaysia' },
+  { src: '/images/Conferences/Kuala Lumpor - With the guys.webp', caption: 'IGARSS 2022, Kuala Lumpur — with colleagues' },
+  { src: '/images/Conferences/Reykjavik - HDCR.webp', caption: 'IEEE GRSS HDCRS Summer School, Reykjavik, Iceland' },
+  { src: '/images/Conferences/Santiago - MENELAOS Presentation.webp', caption: 'MENELAOS Mid-term Summer School, Santiago, Spain' },
+  { src: '/images/Conferences/Siegen - MENELAOS Forum Presentation.webp', caption: 'MENELAOS Forum 2022, Siegen, Germany' },
+  { src: '/images/Conferences/Siegen - MENELAOS Forum - Group.webp', caption: 'MENELAOS Forum 2022 — group photo, Siegen, Germany' },
+  { src: '/images/Conferences/Siegen - MENELAOS Forum - With Saqib and Omid.webp', caption: 'MENELAOS Forum 2022 — with Saqib and Omid, Siegen' },
+  { src: '/images/Conferences/Bucharest - MENELAOS Forum Presentation.webp', caption: 'MENELAOS Forum, Bucharest, Romania' },
+  { src: '/images/Conferences/Bucharest - MENELAOS Forum - Dinner.webp', caption: 'MENELAOS Forum dinner, Bucharest, Romania' },
 ];
 
 const sections = [
   {
     title: 'Travel',
-    subtitle: 'The world is pretty amazing — here are some of the places I\'ve had the pleasure of exploring.',
+    subtitle: "The world is pretty amazing — here are some of the places I've had the pleasure of exploring.",
     photos: travelPhotos,
     icon: '✈️',
   },
@@ -42,7 +66,7 @@ const sections = [
   },
   {
     title: 'Conferences & Events',
-    subtitle: 'Sharing research at international venues, from IGARSS and EuSAR to ESA events and MENELAOS forums.',
+    subtitle: 'Sharing research at international venues — from IGARSS and EuSAR to ESA events and MENELAOS forums.',
     photos: conferencePhotos,
     icon: '🎤',
   },
@@ -61,7 +85,7 @@ const sections = [
       <div class="text-center mb-16 fade-up">
         <a
           href="/"
-          class="inline-flex items-center gap-2 text-xs text-faint hover:text-muted transition-colors mb-6"
+          class="inline-flex items-center gap-1.5 text-xs text-faint hover:text-muted transition-colors mb-6"
         >
           <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
@@ -81,24 +105,25 @@ const sections = [
       {
         sections.map((section, si) => (
           <div class="mb-20 fade-up" style={`transition-delay: ${si * 100}ms`}>
-            <div class="flex items-center gap-3 mb-3">
+            <div class="flex items-center gap-3 mb-2">
               <span class="text-xl">{section.icon}</span>
               <h2 class="text-xl font-semibold text-foreground">{section.title}</h2>
+              <span class="text-xs text-faint ml-1">({section.photos.length} photos)</span>
             </div>
-            <p class="text-sm text-muted mb-6 ml-9">{section.subtitle}</p>
+            <p class="text-sm text-muted mb-6 ml-9 leading-relaxed">{section.subtitle}</p>
 
             <!-- Photo grid -->
-            <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
+            <div class="columns-2 sm:columns-3 lg:columns-4 gap-3 space-y-3">
               {section.photos.map((photo, pi) => (
                 <div
-                  class="group relative aspect-square overflow-hidden rounded-xl bg-surface border border-stroke hover:border-accent/40 transition-all duration-300"
-                  style={`transition-delay: ${pi * 40}ms`}
+                  class="group relative break-inside-avoid overflow-hidden rounded-xl bg-surface border border-stroke hover:border-accent/40 transition-all duration-300"
                 >
                   <img
                     src={photo.src}
                     alt={photo.caption}
-                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    class="w-full object-cover group-hover:scale-105 transition-transform duration-500"
                     loading="lazy"
+                    decoding="async"
                   />
                   <!-- Caption overlay -->
                   <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-3">

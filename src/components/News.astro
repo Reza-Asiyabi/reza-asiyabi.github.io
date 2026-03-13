@@ -64,6 +64,7 @@ const newsItems = [
 ];
 
 const VISIBLE_COUNT = 5;
+const hiddenCount = newsItems.length - VISIBLE_COUNT;
 ---
 
 <section id="news" class="py-24 sm:py-32 bg-surface/40">
@@ -81,17 +82,18 @@ const VISIBLE_COUNT = 5;
         {
           newsItems.map((item, i) => (
             <div
-              class={`news-item fade-up flex gap-5 ${i >= VISIBLE_COUNT ? 'hidden' : ''}`}
-              style={`transition-delay: ${Math.min(i, 4) * 60}ms`}
+              class={`news-item fade-up flex gap-5 ${i >= VISIBLE_COUNT ? 'news-hidden' : ''}`}
+              data-index={i}
+              style={`transition-delay: ${Math.min(i, 4) * 60}ms; ${i >= VISIBLE_COUNT ? 'display:none' : ''}`}
             >
               <!-- Date -->
-              <div class="shrink-0 w-20 text-right">
-                <span class="text-xs text-faint font-medium">{item.date}</span>
+              <div class="shrink-0 w-20 text-right pt-0.5">
+                <span class="text-xs text-faint font-medium tabular-nums">{item.date}</span>
               </div>
-              <!-- Divider dot -->
+              <!-- Timeline dot + line -->
               <div class="shrink-0 flex flex-col items-center">
-                <div class="w-1.5 h-1.5 rounded-full bg-accent mt-1" />
-                <div class="w-px flex-1 bg-stroke mt-1" />
+                <div class="w-1.5 h-1.5 rounded-full bg-accent mt-1.5 shrink-0" />
+                <div class="w-px flex-1 bg-stroke mt-1 min-h-[1rem]" />
               </div>
               <!-- Content -->
               <div class="flex-1 pb-4">
@@ -118,13 +120,13 @@ const VISIBLE_COUNT = 5;
       </div>
 
       {
-        newsItems.length > VISIBLE_COUNT && (
-          <div class="text-center mt-6">
+        hiddenCount > 0 && (
+          <div class="text-center mt-8">
             <button
               id="news-toggle"
-              class="text-sm text-accent hover:text-accent-light transition-colors border border-stroke hover:border-accent/50 px-5 py-2 rounded-full"
+              class="text-sm text-muted hover:text-foreground transition-colors border border-stroke hover:border-accent/50 px-6 py-2.5 rounded-full"
             >
-              Show {newsItems.length - VISIBLE_COUNT} older updates ↓
+              Show {hiddenCount} older updates ↓
             </button>
           </div>
         )
@@ -136,16 +138,30 @@ const VISIBLE_COUNT = 5;
 <script>
   const btn = document.getElementById('news-toggle');
   if (btn) {
+    const hiddenItems = Array.from(
+      document.querySelectorAll<HTMLElement>('.news-item.news-hidden')
+    );
     let expanded = false;
+
     btn.addEventListener('click', () => {
       expanded = !expanded;
-      document.querySelectorAll('.news-item.hidden').forEach((el) => {
-        el.classList.remove('hidden');
-        el.classList.add('fade-up', 'visible');
+
+      hiddenItems.forEach((el) => {
+        if (expanded) {
+          el.style.display = '';
+          // Allow display to take effect before adding visible class
+          requestAnimationFrame(() => {
+            requestAnimationFrame(() => el.classList.add('visible'));
+          });
+        } else {
+          el.classList.remove('visible');
+          el.style.display = 'none';
+        }
       });
-      if (expanded) {
-        btn.textContent = 'Show less ↑';
-      }
+
+      btn.textContent = expanded
+        ? 'Show less ↑'
+        : `Show ${hiddenItems.length} older updates ↓`;
     });
   }
 </script>
