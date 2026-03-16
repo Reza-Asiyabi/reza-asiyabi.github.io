@@ -3,13 +3,12 @@
 
 <section
   id="hero"
-  class="relative min-h-screen flex items-center justify-center overflow-hidden pt-16"
+  class="relative min-h-screen flex items-center overflow-hidden pt-16"
 >
   <!-- Background gradient -->
   <div
     class="absolute inset-0 bg-gradient-to-b from-indigo-950/40 via-background to-background pointer-events-none"
-  >
-  </div>
+  ></div>
 
   <!-- Subtle grid pattern -->
   <div class="absolute inset-0 pointer-events-none opacity-[0.04]" style="
@@ -19,79 +18,94 @@
     background-size: 48px 48px;
   "></div>
 
-  <!-- Glow orb -->
+  <!-- Glow orb — positioned behind photo on the right -->
   <div
-    class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-indigo-600/10 rounded-full blur-3xl pointer-events-none"
-  >
-  </div>
+    class="absolute top-1/2 right-0 lg:right-1/4 -translate-y-1/2 w-[500px] h-[500px] bg-indigo-600/10 rounded-full blur-3xl pointer-events-none"
+  ></div>
 
-  <div class="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 text-center">
-    <!-- Eyebrow -->
-    <p
-      class="text-accent text-xs font-semibold tracking-[0.2em] uppercase mb-6 fade-up"
-    >
-      AI · Machine Learning · Earth Observation
-    </p>
+  <div class="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20 w-full">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
 
-    <!-- Name -->
-    <h1
-      class="text-5xl sm:text-6xl lg:text-7xl font-bold text-foreground mb-5 leading-tight fade-up"
-    >
-      Reza M. Asiyabi
-    </h1>
-
-    <!-- Typewriter -->
-    <div class="text-xl sm:text-2xl mb-6 h-9 fade-up flex items-center justify-center gap-1">
-      <span id="typewriter" class="text-accent-light font-medium"></span>
-      <span id="cursor" class="text-accent-light font-light">|</span>
-    </div>
-
-    <!-- Tagline -->
-    <p
-      class="text-base sm:text-lg text-muted max-w-2xl mx-auto mb-10 leading-relaxed italic fade-up"
-    >
-      "I build AI systems that try to understand the world rather than just fit
-      the data."
-    </p>
-
-    <!-- CTA buttons -->
-    <div class="flex flex-col sm:flex-row gap-4 justify-center mb-16 fade-up">
-      <a
-        href="#experience"
-        class="px-8 py-3 rounded-full bg-accent hover:bg-accent-light text-white font-medium transition-all duration-200 hover:shadow-lg hover:shadow-accent/25 hover:-translate-y-0.5"
-      >
-        View My Work
-      </a>
-      <a
-        href="/files/Reza_CV.pdf"
-        target="_blank"
-        rel="noopener"
-        class="px-8 py-3 rounded-full border border-stroke hover:border-accent text-muted hover:text-foreground font-medium transition-all duration-200 hover:-translate-y-0.5"
-      >
-        Download CV ↗
-      </a>
-    </div>
-
-    <!-- Stats bar -->
-    <div
-      class="fade-up border-t border-stroke pt-10 grid grid-cols-2 sm:grid-cols-4 gap-8 stagger"
-    >
+      <!-- Left: text content -->
       <div class="fade-up">
-        <div class="text-4xl font-bold text-foreground">4+</div>
-        <div class="text-xs text-muted mt-1.5 tracking-wide uppercase">Projects</div>
+        <p class="text-accent text-xs font-semibold tracking-[0.2em] uppercase mb-6">
+          AI · Machine Learning · Earth Observation
+        </p>
+
+        <h1 class="text-5xl sm:text-6xl lg:text-7xl font-bold text-foreground mb-5 leading-tight">
+          Reza M. Asiyabi
+        </h1>
+
+        <!-- Typewriter -->
+        <div class="text-xl sm:text-2xl mb-6 h-9 flex items-center gap-1">
+          <span id="typewriter" class="text-accent-light font-medium"></span>
+          <span id="cursor" class="text-accent-light font-light">|</span>
+        </div>
+
+        <!-- Tagline -->
+        <p class="text-base sm:text-lg text-muted max-w-xl mb-10 leading-relaxed italic">
+          "I build AI systems that try to understand the world rather than just fit
+          the data."
+        </p>
+
+        <!-- CTA buttons -->
+        <div class="flex flex-col sm:flex-row gap-4 mb-12">
+          <a
+            href="#experience"
+            class="px-8 py-3 rounded-full bg-accent hover:bg-accent-light text-white font-medium transition-all duration-200 hover:shadow-lg hover:shadow-accent/25 hover:-translate-y-0.5 text-center"
+          >
+            View My Work
+          </a>
+          <a
+            href="/files/Reza_CV.pdf"
+            target="_blank"
+            rel="noopener"
+            class="px-8 py-3 rounded-full border border-stroke hover:border-accent text-muted hover:text-foreground font-medium transition-all duration-200 hover:-translate-y-0.5 text-center"
+          >
+            Download CV ↗
+          </a>
+        </div>
+
+        <!-- Stats bar -->
+        <div class="border-t border-stroke pt-8 grid grid-cols-2 sm:grid-cols-4 gap-6 stagger">
+          <div class="fade-up">
+            <div class="text-3xl font-bold text-foreground">4+</div>
+            <div class="text-xs text-muted mt-1.5 tracking-wide uppercase">Projects</div>
+          </div>
+          <div class="fade-up">
+            <div class="text-3xl font-bold text-foreground">20+</div>
+            <div class="text-xs text-muted mt-1.5 tracking-wide uppercase">Publications</div>
+          </div>
+          <div class="fade-up">
+            <div class="text-3xl font-bold text-foreground">570+</div>
+            <div class="text-xs text-muted mt-1.5 tracking-wide uppercase">Citations</div>
+          </div>
+          <div class="fade-up">
+            <div class="text-3xl font-bold text-foreground">6+</div>
+            <div class="text-xs text-muted mt-1.5 tracking-wide uppercase">Years Research</div>
+          </div>
+        </div>
       </div>
-      <div class="fade-up">
-        <div class="text-4xl font-bold text-foreground">20+</div>
-        <div class="text-xs text-muted mt-1.5 tracking-wide uppercase">Publications</div>
+
+      <!-- Right: circular profile photo -->
+      <div class="fade-up flex justify-center lg:justify-end order-first lg:order-last">
+        <div class="relative">
+          <!-- Soft outer glow -->
+          <div
+            class="absolute -inset-6 rounded-full bg-gradient-to-br from-accent/20 to-accent-violet/15 blur-3xl pointer-events-none"
+          ></div>
+          <!-- Gradient ring border -->
+          <div class="relative rounded-full p-[3px] bg-gradient-to-br from-accent/70 to-accent-violet/50">
+            <img
+              src="/images/Profile.webp"
+              alt="Reza M. Asiyabi"
+              class="w-64 h-64 sm:w-72 sm:h-72 lg:w-[340px] lg:h-[340px] object-cover rounded-full"
+              loading="eager"
+            />
+          </div>
+        </div>
       </div>
-      <div class="fade-up">
-        <div class="text-4xl font-bold text-foreground">570+</div>
-        <div class="text-xs text-muted mt-1.5 tracking-wide uppercase">Citations</div>
-      </div>
-      <div class="fade-up">
-        <div class="text-4xl font-bold text-foreground">6+</div>
-        <div class="text-xs text-muted mt-1.5 tracking-wide uppercase">Years Research</div>
-      </div>
+
     </div>
   </div>
 

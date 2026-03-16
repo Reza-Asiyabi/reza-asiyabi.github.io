@@ -130,6 +130,29 @@ const navLinks = [
   </div>
 </nav>
 
+<style>
+  /* Animated underline on nav links */
+  .nav-link {
+    position: relative;
+  }
+  .nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    right: 0;
+    height: 1.5px;
+    background: rgb(var(--c-accent));
+    transform: scaleX(0);
+    transform-origin: right center;
+    transition: transform 0.3s ease;
+  }
+  .nav-link:hover::after {
+    transform: scaleX(1);
+    transform-origin: left center;
+  }
+</style>
+
 <script>
   // ─── Theme toggle ──────────────────────────────────────────────────────
   const html = document.documentElement;
