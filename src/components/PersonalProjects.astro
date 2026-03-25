@@ -46,6 +46,56 @@ const projects = [
     ],
     status: 'Active',
   },
+  {
+    title: 'Deep Learning for BioMassters',
+    description:
+      'Multi-architecture benchmark for above-ground biomass (AGB) estimation from satellite time-series. Compares U-Net, 3D U-Net, Swin U-Net, U-TAE, and a custom TempFusionNet on the NeurIPS 2023 BioMassters dataset.',
+    tags: ['PyTorch', 'PyTorch Lightning', 'Remote Sensing', 'Temporal Attention', 'SAR', 'AGB', 'W&B'],
+    links: [
+      { label: 'GitHub', href: 'https://github.com/Reza-Asiyabi/DeepLearning4BioMassters' },
+    ],
+    status: 'Completed',
+  },
+  {
+    title: 'Foundation Model Fine-Tuning',
+    description:
+      'Modular framework for fine-tuning LLMs (LLaMA-2, Mistral) and Vision Transformers (ViT, DINOv2, ResNet) using parameter-efficient techniques including LoRA, adapters, and quantization with distributed training support.',
+    tags: ['PyTorch', 'HuggingFace', 'LoRA', 'PEFT', 'LLM', 'ViT', 'Distributed Training'],
+    links: [
+      { label: 'GitHub', href: 'https://github.com/Reza-Asiyabi/FoundationModel_Finetuning' },
+    ],
+    status: 'Completed',
+  },
+  {
+    title: 'Geospatial Foundation Model for AGB',
+    description:
+      'Fine-tuning geospatial foundation models (Prithvi, DINOv2, ViT) for above-ground biomass estimation using the BioMassters dataset with multi-modal Sentinel-1 + Sentinel-2 temporal sequences. Achieves ~0.82 R².',
+    tags: ['PyTorch', 'DDP', 'Foundation Models', 'SAR', 'AGB', 'Multi-modal', 'MLflow'],
+    links: [
+      { label: 'GitHub', href: 'https://github.com/Reza-Asiyabi/GeoFoundationModel_BioMassters' },
+    ],
+    status: 'Completed',
+  },
+  {
+    title: 'EuroSAT Land Cover Classification',
+    description:
+      'Land-use/land-cover classification from Sentinel-2 satellite patches using transfer learning. Achieves 98.59% test accuracy with EfficientNet-B0, benchmarking multiple architectures (ResNet, ViT, ConvNeXt, Swin).',
+    tags: ['PyTorch', 'Transfer Learning', 'EfficientNet', 'Remote Sensing', 'Sentinel-2', 'timm'],
+    links: [
+      { label: 'GitHub', href: 'https://github.com/Reza-Asiyabi/Kaggle_EuroSAT_Classification' },
+    ],
+    status: 'Completed',
+  },
+  {
+    title: 'Geospatial Foundation Model Benchmark',
+    description:
+      'Modular pipeline for benchmarking geospatial foundation model embeddings (AlphaEarth, Tessera, Sentinel-2 ResNet-50, TorchGeo ViT) across land cover classification, biomass regression, and flood detection tasks.',
+    tags: ['PyTorch', 'TorchGeo', 'Foundation Models', 'Remote Sensing', 'MLflow', 'UMAP'],
+    links: [
+      { label: 'GitHub', href: 'https://github.com/Reza-Asiyabi/Geospatial_Foundation_Model_Benchmark' },
+    ],
+    status: 'Completed',
+  },
 ];
 
 const statusColors: Record<string, string> = {
