@@ -6,7 +6,8 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "optimize": "node scripts/optimize-images.mjs"
+    "optimize": "node scripts/optimize-images.mjs",
+    "cv": "node scripts/export-cv.mjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.1",

@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Reza M. Asiyabi - CV</title>
+<style>
+  /* Flowing A4 layout: text can never run off a page. Content lives in the HTML; all styling is here. */
+  @page {
+    size: A4; margin: 9mm 11mm 15mm;
+    @bottom-left  { content: "Reza M. Asiyabi · Curriculum Vitae"; font: 8pt Calibri, Carlito, Arial, sans-serif; color: #5b6472; }
+    @bottom-right { content: counter(page) " / " counter(pages); font: 8pt Calibri, Carlito, Arial, sans-serif; color: #5b6472; }
+  }
+  :root {
+    --navy: #12284a;
+    --accent: #1a7f9c;
+    --ink: #1c1f26;
+    --muted: #5b6472;
+    --rule: #d5dae2;
+    --tint: #eef3f7;
+    --body: 8.9pt;
+  }
+  * { box-sizing: border-box; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  html, body { margin: 0; padding: 0; background: #fff; }
+  body { font-family: Calibri, Carlito, "Segoe UI", Arial, sans-serif; font-size: var(--body); color: var(--ink); line-height: 1.18; }
+
+  .page { background: #fff; }
+  @media screen { html, body { background: #888; } .page { width: 210mm; margin: 10px auto; padding: 9mm 11mm 15mm; } }
+
+  /* Header (page 1) */
+  .header { background: var(--navy); color: #fff; height: 27mm; padding: 5mm 7mm 0; position: relative; border-radius: 1.6mm; overflow: hidden; margin-bottom: 2.5mm; }
+  .header::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 1.3mm; background: var(--accent); }
+  .header h1 { margin: 0; font-size: 23pt; font-weight: 700; letter-spacing: .6px; line-height: 1.05; }
+  .header .role { margin-top: 1mm; font-size: 10.5pt; color: #9fd6e6; letter-spacing: .3px; }
+  .header .contact { position: absolute; right: 7mm; top: 5mm; text-align: right; font-size: 8.6pt; line-height: 1.45; color: #e8eef6; }
+  .header .rtw { position: absolute; left: 7mm; bottom: 3.4mm; font-size: 8.8pt; color: #c9d6e6; }
+  .header .rtw b { color: #fff; font-weight: 600; }
+
+  
+  .content { }
+
+  h2 { margin: 2.6mm 0 1.2mm; padding: 0 0 .9mm 2.6mm; border-left: 1.1mm solid var(--accent); border-bottom: .25mm solid var(--rule); color: var(--navy); font-size: 11pt; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; line-height: 1.15; }
+  h2 small { font-size: 8.6pt; letter-spacing: .02em; text-transform: none; color: var(--muted); font-weight: 600; margin-left: 2mm; }
+  h2.first { margin-top: 0; }
+  p { margin: 0; text-align: justify; }
+  ul { margin: 0; padding-left: 4.6mm; }
+  li { margin: 0 0 .2mm; text-align: justify; padding-left: .6mm; }
+  li::marker { color: var(--accent); }
+
+  /* Skills */
+  .skills { display: grid; grid-template-columns: 31mm 1fr; column-gap: 3mm; row-gap: .2mm; }
+  .skills .k { font-weight: 700; color: var(--navy); }
+  .skills .grp { grid-column: 1 / -1; font-weight: 700; color: var(--accent); font-size: 8.6pt; letter-spacing: .08em; text-transform: uppercase; margin-top: 1.4mm; border-bottom: .2mm dotted var(--rule); padding-bottom: .3mm; }
+  .skills .gap { grid-column: 1 / -1; height: .9mm; border-top: .2mm dotted var(--rule); }
+  .skills .gap:first-child { display: none; }
+
+  /* Jobs / education */
+  .job { margin-top: 1.7mm; break-inside: avoid; }
+  .job.first { margin-top: 0; }
+  .row { display: flex; justify-content: space-between; align-items: baseline; gap: 4mm; }
+  .row .t { font-weight: 700; color: var(--navy); font-size: 9.8pt; }
+  .row .d { white-space: nowrap; color: var(--muted); font-size: 8.6pt; font-weight: 600; }
+  .row .d.now { color: var(--accent); }
+  .org { font-weight: 600; color: var(--accent); }
+  .org span { font-weight: 400; color: var(--muted); }
+  .desc { margin: .3mm 0 .5mm; color: #333; font-style: italic; text-align: left; }
+  .job ul { margin-top: .4mm; }
+
+  .projects { display: grid; grid-template-columns: repeat(3, 1fr); gap: .8mm 2.5mm; }
+  .projects span { background: var(--tint); border-left: .8mm solid var(--accent); padding: .5mm 1.6mm; font-weight: 600; color: var(--navy); font-size: 8pt; white-space: nowrap; }
+
+  .subhead { font-weight: 700; color: var(--accent); font-size: 8.2pt; letter-spacing: .06em; text-transform: uppercase; margin: 1.2mm 0 .3mm; }
+  .subhead.first { margin-top: 0; }
+  a { color: inherit; text-decoration: none; }
+</style>
+</head>
+<body>
+
+<!-- ═══════════════════════════ PAGE 1 ═══════════════════════════ -->
+<main class="page">
+  <div class="header">
+    <h1>Reza M. Asiyabi</h1>
+    <div class="role">Machine Learning Scientist · Geospatial AI · Earth Observation</div>
+    <div class="contact">
+      London, UK<br>
+      Reza.asiyabi@treefera.com &nbsp;|&nbsp; Reza.m.asiyabi@gmail.com<br>
+      +44 7777 933 494<br>
+      reza-asiyabi.github.io
+    </div>
+    <div class="rtw">Right to Work: <b>UK Global Talent Visa</b> (no sponsorship required in the UK)</div>
+  </div>
+
+  <div class="content">
+    <h2 class="first">Summary</h2>
+    <p><b>Geospatial AI/ML &nbsp;|&nbsp; Applied AI for Geospatial/Environmental Intelligence &nbsp;|&nbsp; GeoFoundation Models</b></p>
+    <p>Machine learning and remote sensing scientist building applied AI systems for large-scale Earth observation data, from model development through to deployment. Currently, a Machine Learning Scientist at Treefera, building geospatial AI for supply chain and environmental intelligence; previously led ML/EO projects at the University of Edinburgh, the UK's National Centre for Earth Observation (NCEO), Stanford University, and ESA-funded initiatives, developing computer vision and deep learning models for multimodal satellite data (SAR, optical, LiDAR) and geospatial time series. Background spans representation learning, interpretable models, and physics-aware AI. Comfortable working across technical and commercial teams to move ambiguous problems into deployed tools, with strong Python and large-scale experimentation skills.</p>
+
+    <h2>Core Technical Expertise and Skills</h2>
+    <div class="skills">
+      <div class="gap"></div>
+      <div class="k">Remote sensing data</div><div>SAR, Multispectral, LiDAR, hyperspectral; sensor fusion and multi-modal geospatial analysis</div>
+      <div class="k">EO processing tools</div><div>Google Earth Engine, GDAL, Geopandas, Rasterio, Xarray, TerraTorch, TorchGeo, SNAP, ENVI, QGIS, ArcGIS</div>
+      <div class="k">Application domains</div><div>Environmental monitoring, land cover mapping, vegetation/crop health monitoring, change detection</div>
+      <div class="k">Geospatial ML</div><div>Geo-Foundation models, domain-aware and physics-informed learning, large-scale geospatial data pipelines</div>
+
+      <div class="gap"></div>
+      <div class="k">Frameworks</div><div>PyTorch, JAX, TensorFlow/Keras, HuggingFace Transformers</div>
+      <div class="k">Architectures</div><div>CNNs, Vision Transformers, LSTMs, Autoencoders, Complex-Valued Networks, Concept Bottleneck Models</div>
+      <div class="k">Specialisations</div><div>Foundation models, self-supervised learning, multimodal fusion, few-shot learning, physics-informed neural networks, neural data compression, explainable AI (XAI)</div>
+      <div class="k">MLOps</div><div>End-to-end training pipelines (HPC &amp; cloud), CI/CD, experiment tracking (TensorBoard, W&amp;B), model deployment, version control (Git), proof-of-concept to production</div>
+
+      <div class="gap"></div>
+      <div class="k">Python ecosystem</div><div>NumPy, SciPy, Pandas, Scikit-Learn, OpenCV, Matplotlib</div>
+      <div class="k">Large-scale pipelines</div><div>Distributed data processing, cloud-based geospatial workflows, high-volume EO dataset management</div>
+      <div class="k">Other</div><div>GCS, AWS, R, MATLAB, SQL, C++ (working knowledge)</div>
+
+      <div class="gap"></div>
+      <div class="k">Track record</div><div>20+ publications, 700+ citations; IEEE TGRS, J-STARS, J-STSP; cross-functional collaboration with academic and industry partners</div>
+      <div class="k">Languages</div><div>English (fluent), Persian/Farsi (native), Turkish/Azari (native)</div>
+    </div>
+
+    <h2>Professional Experience</h2>
+
+    <div class="job first">
+      <div class="row"><span class="t">Machine Learning Scientist – Geospatial AI for Supply Chain Intelligence</span><span class="d now">Oct 2026 - Present</span></div>
+      <div class="org">Treefera <span>· London, UK</span></div>
+      <p class="desc">AI-powered data fabric fusing spatial and temporal insights to deliver first-mile visibility, sourcing, risk and compliance intelligence for resilient supply chains.</p>
+      <ul>
+        <li>Developing robust, interpretable machine learning models for complex, high-dimensional spatial and temporal data, supporting market, risk and environmental intelligence.</li>
+        <li>Applying deep learning, computer vision and multimodal learning across radar, multispectral and LiDAR data.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="row"><span class="t">Postdoctoral Research Associate (PDRA) – AI for Environmental Monitoring</span><span class="d">Aug 2024 - Oct 2026</span></div>
+      <div class="org">The University of Edinburgh – National Centre for Earth Observation (NCEO) <span>· Edinburgh, UK</span></div>
+      <p class="desc">Developed domain-aware AI systems for environmental monitoring using multimodal and noisy Earth Observation data.</p>
+      <ul>
+        <li>Designed and implemented novel modular architectures (PG-CBM and StruMPL) for vegetation monitoring, integrating domain physics constraints with interpretable concept/multi-task learning to reduce prediction bias by 80% and improved ecological alignment.</li>
+        <li>Built multi-stage learning pipeline with data augmentation and regularization strategies, combining multi-modal satellite and field/plot data with physics-based loss functions to enforce structural constraints, improve model robustness against label noise, MNAR bias, domain shift, and spurious correlations in sparse-label regimes.</li>
+        <li>Collaborated with domain scientists to design interpretable model outputs aligned with ecological theory.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="row"><span class="t">Postdoctoral Research Assistant – Remote Sensing for Economic Monitoring</span><span class="d">Jan 2024 to Jul 2024</span></div>
+      <div class="org">Stanford University / Stockholm School of Economics <span>· Remote</span></div>
+      <p class="desc">Market Activity Index (MAI) project, Center for Food Security and the Environment (FSE).</p>
+      <ul>
+        <li>Designed novel remote sensing time-series change detection methods to detect and track economic activity of local markets.</li>
+        <li>Implemented processing pipeline for satellite time-series imagery on Google Earth Engine and Google Cloud platform.</li>
+      </ul>
+    </div>
+  </div>
+
+
+    <div class="job">
+      <div class="row"><span class="t">AI Research Engineer – Neural Data Compression</span><span class="d">Jan 2022 to Jan 2023</span></div>
+      <div class="org">European Space Agency (ESA) funded project – ARTISTE <span>· Adaptive SAR Signal Compression Through Artificial Intelligence</span></div>
+      <p class="desc">Led AI development for neural compression of raw SAR data for next-generation ESA satellite missions.</p>
+      <ul>
+        <li>Architected autoencoder-based compression pipeline using complex-valued neural networks to preserve phase coherency in SAR raw data. Achieved 8:1 compression ratio while maintaining signal fidelity for downstream processing.</li>
+        <li>Designed custom loss functions balancing reconstruction accuracy with information-theoretic compression objectives.</li>
+        <li>Implemented end-to-end training and evaluation framework and validated against ESA missions' operational SAR processing chains.</li>
+        <li>Collaborated with engineering teams at DLR and Airbus to integrate ML compression module into mission simulation environment and assess computational feasibility for onboard processing.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="row"><span class="t">Visiting Researcher – Complex-valued Deep Learning</span><span class="d">Oct 2021 to Oct 2022</span></div>
+      <div class="org">Zentrum für Sensorsysteme (ZESS), University of Siegen <span>· Siegen, Germany</span></div>
+      <p class="desc">Research collaboration focused on theoretical and applied development of complex-valued neural networks.</p>
+      <ul>
+        <li>Designed novel complex-valued convolutional architectures preserving phase information in SAR imagery. Demonstrated ~20% accuracy improvement over real-valued baselines on classification tasks.</li>
+        <li>Developed theoretical framework for backpropagation and gradient computation in complex-valued networks, implemented custom PyTorch layers for complex activations and operations.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="row"><span class="t">PhD Research Assistant – Deep Learning for Earth Observation</span><span class="d">Dec 2020 to Dec 2023</span></div>
+      <div class="org">CEOSpaceTech, University Politehnica Bucharest <span>· Bucharest, Romania</span></div>
+      <p class="desc">Marie Sklodowska-Curie Early Stage Researcher (EU Horizon 2020 fellowship) conducting fundamental research on robust deep learning architectures for multimodal Earth Observation data.</p>
+      <ul>
+        <li>Developed end-to-end deep learning framework for complex-valued SAR data processing, combining semantic segmentation, classification, and neural compression in unified architectures.</li>
+        <li>Designed coherency-preserving neural networks maintaining physical signal properties through complex-valued operations.</li>
+        <li>Created and released S1SLC_CVDL: annotated complex-valued SAR dataset enabling reproducible research in complex-valued networks.</li>
+      </ul>
+    </div>
+
+    <h2>Selected Side Projects <small>(more details on my GitHub)</small></h2>
+    <div class="projects">
+      <span>Deep Learning for BioMassters</span><span>AGB Assistant LLM</span><span>Foundation Model Fine-Tuning</span>
+      <span>Geospatial Foundation Model for AGB</span><span>EuroSAT Land Cover Classification</span><span>Geospatial Foundation Model Benchmark</span>
+    </div>
+
+    <h2>Education</h2>
+    <div class="job first">
+      <div class="row"><span class="t">PhD of Electronics, Telecommunications and Information Technology</span><span class="d">Dec 2020 to Dec 2023</span></div>
+      <div class="org">University POLITEHNICA Bucharest (UPB) <span>· Romania</span></div>
+      <ul>
+        <li>Early-Stage Marie Sklodowska-Curie Researcher, EU Horizon 2020 MENELAOS-NT ITN</li>
+        <li>Dissertation: "Deep Learning for SAR Data in Presence of Adversarial Samples"</li>
+      </ul>
+    </div>
+    <div class="job" style="margin-top:2mm">
+      <div class="row"><span class="t">Master of Science (MSc) of Remote Sensing Engineering</span><span class="d">Sep 2016 to Sep 2018</span></div>
+      <div class="org">K.N. Toosi University of Technology <span>· Tehran, Iran</span></div>
+      <ul><li>Thesis: Bag of Visual Words Model Enhancement for PolSAR Images Classification</li></ul>
+    </div>
+    <div class="job" style="margin-top:2mm">
+      <div class="row"><span class="t">Bachelor of Science (BSc) of Geodesy and Geomatics</span><span class="d">Sep 2012 to Sep 2016</span></div>
+      <div class="org">K.N. Toosi University of Technology <span>· Tehran, Iran</span></div>
+    </div>
+
+    <h2>Fellowships, Awards, and Certificates</h2>
+    <ul>
+      <li>Fellow of the University of Edinburgh's <b>Generative AI Laboratory (GAIL)</b> (2025-2026)</li>
+      <li><b>Marie Sklodowska-Curie Doctoral Fellowship</b>, EU Horizon 2020 (2020-2023), MENELAOS-NT project, Grant No. 860370</li>
+      <li><b>National Academic Excellence Fellowships</b>, K.N. Toosi University of Technology, Top 1% nationwide university entrance exams (BSc 2012, MSc 2016)</li>
+      <li>Certificate of the IEEE GRSS <b>High-Performance and Disruptive Computing</b> in Remote Sensing (2023)</li>
+    </ul>
+
+    <h2>Selected Publications <small>(600+ citations on Google Scholar)</small></h2>
+    <div class="subhead first">Working Papers</div>
+    <ul>
+      <li><b>R. M. Asiyabi,</b> et al., "StruMPL: Multi-task Dense Regression under Disjoint Partial Supervision and MNAR Labels" (under review at TMLR – available on arXiv).</li>
+      <li><b>R. M. Asiyabi,</b> et al., "PG-CBM: Process-Guided Concept Bottleneck Models" (under review at IEEE TPAMI – available on arXiv).</li>
+    </ul>
+    <div class="subhead">Published Datasets</div>
+    <ul>
+      <li><b>R. M. Asiyabi,</b> et al., "S1SLC_CVDL: A Complex-Valued Annotated Single Look Complex Sentinel-1 SAR dataset for Complex-Valued Deep Networks", IEEE DataPort, (2023), doi: 10.21227/nm4g-yd98.</li>
+    </ul>
+    <div class="subhead">Journal and Conference Papers</div>
+    <ul>
+      <li><b>R. M. Asiyabi,</b> et al., "Teaching AI to Think Like an Ecologist: Process-Guided Biomass Estimation from Earth Observation Data", EurIPS 2025 – Workshop on AI for Climate and Conservation, (2025).</li>
+      <li><b>R. M. Asiyabi,</b> et al., "Complex-Valued Autoencoder-Based Neural Data Compression for SAR Raw Data," IEEE J-STSP, (2025).</li>
+      <li><b>R. M. Asiyabi,</b> et al., "Complex-Valued End-to-End Deep Network with Coherency Preservation for Complex-Valued SAR Data Reconstruction and Classification," IEEE TGRS, (2023).</li>
+    </ul>
+    <div class="subhead">Presentations</div>
+    <ul>
+      <li>AI/ML/EO sessions at EurIPS 2025, ESA Living Planet Symposium 2022 &amp; 2025, ESA Phi-lab 2021, IEEE IGARSS 2021–2024, EUSAR 2022 &amp; 2024, CBMI 2023, and more.</li>
+    </ul>
+</div>
+</main>
+
+</body>
+</html>
